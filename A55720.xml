@@ -1,0 +1,799 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The present state of Jamaica with the life of the great Columbus the first discoverer : to which is added an exact account of Sir Hen. Morgan's voyage to, and famous siege and taking of Panama from the Spaniards.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1683</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 116 KB of XML-encoded text transcribed from 64 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A55720</idno>
+            <idno type="STC">Wing P3268</idno>
+            <idno type="STC">ESTC R1042</idno>
+            <idno type="EEBO-CITATION">12013014</idno>
+            <idno type="OCLC">ocm 12013014</idno>
+            <idno type="VID">52464</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A55720)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 52464)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 574:21)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The present state of Jamaica with the life of the great Columbus the first discoverer : to which is added an exact account of Sir Hen. Morgan's voyage to, and famous siege and taking of Panama from the Spaniards.</title>
+               </titleStmt>
+               <extent>[10], 117 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Fr. Clark for Tho. Malthus ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1683.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Advertisement: prelim. p. [7]-[10].</note>
+                  <note>Sir Henry Morgan's voyage to Panama 1670. London : Printed for T. Malthus, 1683 (With special t.p.): p. [55-97].</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Columbus, Christopher.</term>
+               <term>Morgan, Henry, --  Sir, 1635?-1688.</term>
+               <term>Jamaica --  Description and travel.</term>
+               <term>Panama --  History.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2014-01</date>
+            <label>Anne Simpson</label>Sampled and proofread</change>
+         <change>
+            <date>2014-01</date>
+            <label>Anne Simpson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:52464:1"/>
+            <pb facs="tcp:52464:1" rendition="simple:additions"/>
+            <p>THE PRESENT STATE OF Jamaica. WITH THE LIFE Of the Great <hi>Columbus</hi> The firſt Diſcoverer:</p>
+            <p>To which is Added An Exact Account of Sir <hi>Hen. Morgan</hi>'s Voyage to, and famous Siege and ta<g ref="char:EOLhyphen"/>king of <hi>Panama</hi> from the <hi>Spaniards.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>Fr. Clark</hi> for <hi>Tho. Malthus</hi> at the <hi>Sun</hi> in the <hi>Poultry,</hi> 1683.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:52464:2"/>
+            <pb facs="tcp:52464:2"/>
+            <head>TO THE READER.</head>
+            <p>I Preſent thee here with a ſhort view of <hi>Jamaica,</hi> an Iſland the moſt flouriſhing of any this day in the <hi>Weſt Indies;</hi> and tho it has been but
+<pb facs="tcp:52464:3"/> a ſhort time in the Hands of the <hi>Engliſh,</hi> yet it hath Augmented it ſelf to that vaſt ſtrength, by reaſon of its great <hi>Trade</hi> and number of <hi>Inhabitants,</hi> that it is not only capable to Defend it ſelf againſt any <hi>Invaſion</hi> that may be made upon it: but if oc<g ref="char:EOLhyphen"/>caſion be, to Offend the moſt Potent of its Neigh<g ref="char:EOLhyphen"/>bours; a proof of which you will find in Sir <hi>Henry Morgans</hi> famous Voyage
+<pb facs="tcp:52464:3"/> to <hi>Panama,</hi> many years ago, the Iſland being then in its Infancy, yet was able to give the <hi>(Club) Law</hi> to the proud <hi>Spani<g ref="char:EOLhyphen"/>ards,</hi> the apprehenſions of which ſtrikes Terrour into the Inhabitants of thoſe Parts to this day. You will find here an ex<g ref="char:EOLhyphen"/>act State of the Govern<g ref="char:EOLhyphen"/>ment of the Church, the Laws, the Militia, and its Revenue, carefully Collected from the Re<g ref="char:EOLhyphen"/>cords
+<pb facs="tcp:52464:4"/> of the Country, with an Account of its Soyl, Climate, Woods, Mountains, Winds, and the Diſeaſes that the Peo<g ref="char:EOLhyphen"/>ple are moſt Incident to; the Commodities of the Country, Cattel, Fowls, Fiſh and other <hi>Proviſi<g ref="char:EOLhyphen"/>ons;</hi> with an Hiſtorical Account of its being ta<g ref="char:EOLhyphen"/>ken from the <hi>Spaniards.</hi>
+            </p>
+            <closer>
+               <salute>Vale.</salute>
+            </closer>
+         </div>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:52464:4"/>
+            <head>Books lately printed for and ſold by <hi>Tho. Malthus,</hi> at the <hi>Sun</hi> in the <hi>Poultry.</hi>
+            </head>
+            <p>
+               <hi>BEntivolio</hi> and <hi>
+                  <g ref="char:V">Ʋ</g>rania</hi> in ſix Books, by <hi>Nathaniel Ingelo</hi> D. D. the fourth Edi<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ion, with large Amendments, wherein all <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he obſcure Words throughout the Book <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>re interpreted in the Margin, which makes <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>his much more Delightful to read than the <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ormer Editions.</p>
+            <p>Mr. <hi>James Janewayes Legacy</hi> to his <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>riends, containing twenty ſeven Famous <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nſtances of Gods Providences, in and about <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ea-dangers and Deliverances, with the Names of ſeveral that were Eye Witneſſes <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o many of them.</p>
+            <p>
+               <hi>Cataſtrophe Mundi,</hi> or <hi>Merlin Revived,</hi> in Diſcourſe of Propheſies, and Predictions, <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd their Remarkable Accompliſhments with Mr. <hi>Lillies</hi> Hieroglyphicks Exactly Out, <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd Notes, and Obſervations thereon, as alſo Collection of all the antient reputed Pro<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hecies that are extant, touching the Grand evolutions like to happen in theſe latter ages.</p>
+            <p>
+               <hi>Hiſtorical Memoirs</hi> of the Life and Death <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f that wiſe and valiant Prince, <hi>Rupert,</hi> Prince <hi>Palatine</hi> of the <hi>Rhine,</hi> Duke of <hi>Cum<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>erland,</hi> &amp;c. containing a brief but impartial
+<pb facs="tcp:52464:5"/> Account of his Great and Martial Achieve<g ref="char:EOLhyphen"/>ments, during the time of the Civil Wars, together with his ſeveral Engagements in the Wars between his Majeſty and the States General of the United Provinces.</p>
+            <p>An Hiſtorical Account of the Heroick Life and Magnanimous Actions of the moſt Illuſtrious Proteſtant Prince, <hi>James</hi> Duke of <hi>Monmouth;</hi> containing an Account o<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> his Birth, Education, Places and Titles with his Great and Martial Achievement<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> in <hi>Flanders</hi> and <hi>Scotland,</hi> his Diſgrace and Departure both from Court and Kingdom<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> with the moſt material Circumſtances tha<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> have occurred ſince his Return.</p>
+            <p>
+               <hi>Pſalmorum Davidis, Paraphraſis Poetica<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Georgii Buchanani, Scots Argumentis ac Me<g ref="char:EOLunhyphen"/>lodiis explicata, atque Illuſtrata.</hi>
+            </p>
+            <p>
+               <hi>The Romiſh Maſs-Book</hi> faithfully tran<g ref="char:EOLunhyphen"/>ſlated into <hi>Engliſh;</hi> with Notes and Ob<g ref="char:EOLunhyphen"/>ſervations thereupon, plainly demonſtra<g ref="char:EOLunhyphen"/>ting the Idolatry and Blaſphemy thereof<g ref="char:punc">▪</g> containing, 1. The <hi>Cautelae,</hi> or <hi>Caveats</hi> o<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the <hi>Maſs,</hi> 2. The <hi>Canon</hi> of the <hi>Maſs.</hi> 3 The <hi>Hiſtory</hi> of the <hi>Maſs:</hi> Shewing when how, and by whom it was patched to<g ref="char:EOLunhyphen"/>gether; with a curious Copper Cut pre<g ref="char:EOLhyphen"/>fixed, repreſenting the <hi>Prieſt</hi> a ſaying <hi>Maſs</hi> With unanſwerable Arguments proving
+<pb facs="tcp:52464:5"/> it no Service of God. Publiſhed at this <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uncture to prevent the Deſignes of thoſe that are endeavouring to introduce <hi>Popery</hi> amongſt us. Dedicated to the Right Re<g ref="char:EOLhyphen"/>verend Father in God, <hi>Henry</hi> Lord Biſhop of <hi>London.</hi> Price bound One Shilling.</p>
+            <p>The Famous Voyages of the ever Re<g ref="char:EOLhyphen"/>nowned and Valiant Sir <hi>Francis Drake</hi> into the <hi>Weſt-Indies:</hi> viz. His great Adven<g ref="char:EOLhyphen"/>tures for Gold and Siver, and the gaining thereof; with a particular Account of the <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>amous Battel of <hi>Nombre de Dios.</hi> A large Account of that Voyage wherein he encom<g ref="char:EOLhyphen"/>paſſed the World: His Voyage with Cap<g ref="char:EOLhyphen"/>tain <hi>Knollis,</hi> and others; their taking the Towns of St. <hi>Jago, Sancto Domingo, Car<g ref="char:EOLhyphen"/>thagena,</hi> &amp;c. His laſt Voyage in which he died, being accompanied with ſeveral va<g ref="char:EOLhyphen"/>liant Commanders, and the manner of his Burial. To which is added, an Account of his valourous Exploits in 1588. in the <hi>Spa<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>iſh Invaſion.</hi> Price bound One Shilling.</p>
+            <p>A moſt Learned Treatiſe, entituled, <hi>Fun<g ref="char:EOLhyphen"/>damental Law the true Security of Soveraign Dignity, and the Peoples Liberty.</hi> By a Perſon of Honour. <hi>Octav.</hi> Price one Shil<g ref="char:EOLhyphen"/>ing Six pence.</p>
+            <p>
+               <hi>Vates Aſtrologicus:</hi> or, <hi>England</hi>'s <hi>Aſtro<g ref="char:EOLhyphen"/>logical Prophet.</hi> Foretelling what is likely
+<pb facs="tcp:52464:6"/> to befal <hi>Great Britain</hi> and <hi>Ireland,</hi> particu<g ref="char:EOLunhyphen"/>larly the great and famous City of <hi>London</hi> as alſo <hi>France, Holland, Spain, Germany Poland, Italy, Sicily, Apulia, Bohemia Turkie,</hi> and indeed all <hi>Europe,</hi> but mor<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> eſpecially the See of <hi>Rome,</hi> for twenty year<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> together, beginning <hi>March</hi> 10. 1683. end<g ref="char:EOLunhyphen"/>ing <hi>March</hi> 10. 1702. Likewiſe <hi>Aſtrologic<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> Judgments</hi> of the effects of that famous Tr<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ple Conjunction of <hi>Saturn</hi> and <hi>Jupiter,</hi> bein<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> thrice repeated in that Regal Sign <hi>Leo,</hi> th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> great Dignities of the <hi>Sun</hi> and <hi>Jupiter.</hi> Alſ<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſome Remarks upon the Eclipſes, and mo<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap> eſpecially upon that great and famous vi<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ble Eclipſe of the Sun, <hi>July</hi> 2. 1684. Wit<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> twenty years Predictions from ſome of th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> moſt eminent mutual Aſpects of the Planet<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> and Eclipſe of the Luminaries, and annu<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Revolutions of Sun. With man <hi>Hierogl<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>phicks,</hi> repreſenting the future State an<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Changes of the World. By <hi>Richard Ki<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>by</hi> Student in Aſtrology. Price one Shillin<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+            </p>
+            <p>The <hi>Womens Advocate,</hi> or Fifteen <hi>Re<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Comforts</hi> or <hi>Matrimony:</hi> being in requital <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the late Fifteen <hi>Sham-Comforts;</hi> with Satyr<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>cal Reflections on Whoring, and the D<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>baucheries of this Age, Written by a Pe<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> of Quality of the Female Sex. The Secon<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>dition. Price One Shilling.</p>
+         </div>
+      </front>
+      <group>
+         <text xml:lang="eng">
+            <body>
+               <div type="text">
+                  <pb n="1" facs="tcp:52464:6"/>
+                  <head>THE PRESENT STATE OF Jamaica.</head>
+                  <p>THE Iſland of <hi>Jamaica</hi> in <hi>America</hi> is Situated in about 182 North Latitude, in the Sea called <hi>Mare Del Nort;</hi> it lies about 140 Leagues North of the Main Continent of <hi>America,</hi> South from the great Iſland of <hi>Cuba</hi> about 15 Leagues, and from <hi>Hiſpaniola</hi> Weſt about 20 Leagues.</p>
+                  <p>The Iſland is of an Oval Form, and lies due Eaſt and Weſt, having a continued Ridge of lofty Moun<g ref="char:EOLhyphen"/>tains
+<pb n="2" facs="tcp:52464:7"/> running from one end to the other. By the Map and Survey which Sir <hi>Thomas Lynch</hi> took, it's above 150 Miles long, and from 25 to 50 Miles broad, <hi>de plano,</hi> and contains four Millions and a half of Acres; it's imagined, if this Iſland were divided into eight parts, one is Excellent Paſturage, called by the <hi>Indians Savannas,</hi> 4/8 good Plantable Land, ⅜ Barren or unplantable.</p>
+                  <p>In the Year 1675, when Sir <hi>Tho<g ref="char:EOLhyphen"/>mas Lynch</hi> left the Government, there was above 900000 Acres paſs'd and Planted, and to Manure and Culti<g ref="char:EOLhyphen"/>vate it about 30000 of all ſorts of People.</p>
+                  <p>This Iſland is not generally ſo Fer<g ref="char:EOLhyphen"/>tile and proper for Sugar as <hi>Barba<g ref="char:EOLhyphen"/>does</hi> has been, the Soyl being ex<g ref="char:EOLhyphen"/>treamly differing; for in ſome parts 'tis a black fat Earth, and in others ſtiff and Clayie, in others Sandy, and in ſome Reddiſh, but by pareels; it's therefore the Settlements are di<g ref="char:EOLhyphen"/>ſtinct,
+<pb n="3" facs="tcp:52464:7"/> Mountainous, and Unplant<g ref="char:EOLhyphen"/>able Land interpoſing betwixt them make them appear like ſo many ſe<g ref="char:EOLhyphen"/>veral Colonies, and has occaſioned this Diviſion of the Pariſhes, St. <hi>Thomas</hi> at the Eaſt, St. <hi>Elizabeth</hi> at the Weſt, St. <hi>Johns</hi> and St. <hi>Thomas in the Vale.</hi> In the Iſland, St. <hi>Georges,</hi> St. <hi>Maries,</hi> and St. <hi>Anns,</hi> the North ſide: St. <hi>Davids,</hi> St. <hi>Andrews, Port Royal,</hi> St. <hi>Catharines,</hi> St. <hi>Dorothies, Clarendon</hi> and <hi>Vere</hi> on the South ſide. The greateſt Plains, and almoſt all the <hi>Savannas</hi> or Paſturage is on the South ſide; they are all taken up and Stock'd with Cattel; on the South ſide likewiſe is <hi>Port Royal</hi> and all the beſt Ports and Roads, and moſt conſiderable Plantations, this ſide being dry, plain, more agreeable, and much quicker and ſafer Coaſt than the North, for that in the Spring is apt to violent Guſts of Winds, and much more ſubject to Rains than the South, as the Eaſt,
+<pb n="4" facs="tcp:52464:8"/> and all Parts is that is Woody and Mountainous; nor has the North ſide any ſafe Port, but <hi>Port Antonio,</hi> to the Wind-ward, which is ſubject to violent and conſtant Rains, and the Land about it Morſey and Moun<g ref="char:EOLhyphen"/>tainous, ſo no Settlements are near it. The other Lee-ward Pariſhes have <hi>Port St. Maries,</hi> that is Reaſo<g ref="char:EOLhyphen"/>nably good and ſafe, but they have (eſpecially in St. <hi>Maries</hi> Pariſh) abundance of Excellent Plantations of <hi>Coccoa,</hi> many Sugar-works, and Proviſion Plantations that are ſup<g ref="char:EOLhyphen"/>ported and carried on by Hunting and gathering <hi>Pimento,</hi> with which this Quarter abounds. Thus Plan<g ref="char:EOLhyphen"/>tations were begun, and the Govern<g ref="char:EOLhyphen"/>ment ſettled in Sir <hi>Thomas Lynch</hi> his time, and now the Inhabitants find the goodneſs of that Soyl Liberally Recompence the want of Harbours and Paſturage, and diſtance from the Chief Port and Seat of Govern<g ref="char:EOLunhyphen"/>ment, for its very Fertile Land
+<pb n="5" facs="tcp:52464:8"/> covered with Excellent Timber; it's a little Hilly, but full of fine Rivers, and all Conveniencies for Plantations.</p>
+                  <p>The Climate is as agreeable as any can be betwixt the Tropicks, the Air being very ſerene and clear, even to a Proverb among the <hi>Spaniards:</hi> It's ſubject to Thunder and Light<g ref="char:EOLhyphen"/>ning, as all Countries in that Lati<g ref="char:EOLhyphen"/>tude are; the Rains come uncer<g ref="char:EOLhyphen"/>tainly, but moſt expected about <hi>November</hi> and <hi>May,</hi> they are gene<g ref="char:EOLhyphen"/>rally violent, continue an uncertain time, are unhealthy, and breed <hi>Mus<g ref="char:EOLhyphen"/>ketoes,</hi> that are the greateſt Plague in the Iſland, but are troubleſom only the Rainy Seaſons, and in moſt places where they have not good Houſes, a free Air, clean Yards, <hi>&amp;c.</hi>
+                  </p>
+                  <p>This Climate ſubjects no body inevitably to Diſeaſes, here being no ſuch thing as Seaſoning, which is common in <hi>Ireland</hi> and <hi>Virginia, &amp;c.</hi> Sir <hi>Tho. Lynch</hi> at St. <hi>Jago</hi> and
+<pb n="6" facs="tcp:52464:9"/> thereabouts loſt not one Perſon o<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> his Family that conſiſted of abou<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Thirty all the time of his Govern<g ref="char:EOLhyphen"/>ment. But to many Perſons the Heat is unſupportable, becauſe it's ſo conſtant, and its Reflections ſo violent, otherwiſe it is not greate<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> than our Summers in <hi>England.</hi> I<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> is Exceſs in Eating, Drinking, Exer<g ref="char:EOLunhyphen"/>ciſing Debauchery, <hi>&amp;c.</hi> that to new comers and full Bodies often bring Fevers, Calentures, and ſuch Diſ<g ref="char:EOLunhyphen"/>eaſes, that are infinitely more Acut<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> than thoſe here, and Cured by othe<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Methods. To Servants, poor La<g ref="char:EOLunhyphen"/>bouring People, <hi>&amp;c.</hi> the Dropſie i<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> the moſt common of all other Diſ<g ref="char:EOLunhyphen"/>eaſes; they and Debauch'd Perſon are the moſt ſubject to Belly-aches cauſed uſually by their Diſorders want of convenient Lodging, Cloath<g ref="char:EOLunhyphen"/>ing, Exerciſe, Diet, but ſometime by ill choſen Seats when they Plan<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> in low Valleys, and have no Air, o<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> by Rivers, and have too much moi<g ref="char:EOLunhyphen"/>ſture,
+<pb n="7" facs="tcp:52464:9"/> or by Mountains or Moroſſos, and have too much Rain, or by the Sea-ſide and on Bays, where they are Sandy, want good Water, and have the Reflection of the Sun too vio<g ref="char:EOLhyphen"/>lent; for this Iſland differs one part from another as much in the temper of the Climate, as nature of the Soyl: For the Eaſt Parts are Moun<g ref="char:EOLhyphen"/>tainous, Rainy, and generally Fer<g ref="char:EOLhyphen"/>tile and unhealthful. The South Part dry, plain, very pleaſant, abound<g ref="char:EOLhyphen"/>ing with Ports and Paſturage. The Weſt is between both, only that and the South want Rivers, which the North ſide abounds with, and Rich Land, as likewiſe good Hunt<g ref="char:EOLhyphen"/>ing and gathering <hi>Pimento</hi> in the Mountains, and Fiſhing on the Sea-Coaſts; and by what the <hi>Spaniards</hi> have told us, and ſome little Diſco<g ref="char:EOLhyphen"/>very we have made, we think di<g ref="char:EOLhyphen"/>vers of the Mountains have Mine<g ref="char:EOLhyphen"/>rals.</p>
+                  <pb n="8" facs="tcp:52464:10"/>
+                  <p>The Winter Months here have only the Nights, Mornings and Eve<g ref="char:EOLhyphen"/>nings cooler, the Days as hot as Summer, and about fifteen Hours long Winter and Summer.</p>
+                  <p>The Winds blow not an hours variation commonly here as they do every where betwixt the Tro<g ref="char:EOLhyphen"/>picks, that is Eaſterly, which they call Breeſes, near the Iſland they riſe not till about Nine in the Morning, and uſually ceaſe at about ſix or ſeven at Night; they come in gently, and grow as the Sun riſes, and in the Evening comes in a kind of Weſternly Wind, which we call Land-breeſe, becauſe it blows off the Land, and with it the Veſſels go out of Port: And to the Weſt, that is, the Wind-ward, as the Eaſt is called Lee-ward. This Iſland has never been troubled with thoſe dreadful Hurricanes that ſo often Ruine and Afflict the <hi>Charibe Iſlands, Portorico, Hiſpaniola, Cuba,</hi> and
+<pb n="9" facs="tcp:52464:10"/> many parts of the Main. Here is no great Ebb or Flood of the Sea, we have not Obſerved above a foot difference, nor can any Pilot give any certain Account of the Currents of theſe Seas, they are ſo various and uncertain, nor can any gueſs why the Hurricanes and Earthquakes ſhould never touch <hi>Jamaica,</hi> ſince they ſo often Afflict all the Iſlands and Continent.</p>
+                  <p>None of the Rivers of this Iſland are fair or Navigable, becauſe the Countrey is very Mountainous, and theſe Hills running through the Centre of it Eaſt and Weſt, the Ri<g ref="char:EOLhyphen"/>vers riſe in them, and diſembogue North and South; ſo falling out of theſe high Mountains are very Rap<g ref="char:EOLhyphen"/>pie, and becauſe of the great Rains in them, are ſubject to Inundations that carry great ſtone Rocks and Timber along with the Torrent, ſo make their uſual Courſe foul and unpaſſable for Boats, and make and
+<pb n="10" facs="tcp:52464:11"/> change the Bars. There are divers dry Rivers which hinder the Boats from entring into the Countrey, as particularly <hi>Minoa,</hi> that runs through <hi>Clarendon,</hi> which at ſome time has not a drop of Water, and at other times as much as the <hi>Thames</hi> at High Water.</p>
+                  <p>The Mountains, whether Stony or Plantable, are generally covered with Excellent Timber for all Uſes, both for Curioſity, Building, and Dying abundance of Fruit and Spice Trees: Theſe Mountains are full of Hoggs, and there is probability of Minerals, but no Trees or Fruit that reſemble ours in <hi>England.</hi>
+                  </p>
+                  <p>There's no Towns in this Iſland but on the South ſide, at the Eaſt by <hi>Port St. Thomas, Port Morant,</hi> ſe<g ref="char:EOLhyphen"/>veral Houſes called <hi>Rapp-Houſes,</hi> which ſerve for Store-Houſes and Ale-Houſes for the Neighbourhood, and ſuch Veſſels as uſe that Port, which are but few, becauſe the
+<pb n="11" facs="tcp:52464:11"/> Governour has not yet permitted Veſſels to Diſcharge there.</p>
+                  <p>At St. <hi>Davids</hi> is <hi>Yhallows Bay,</hi> about ſeven Leagues from <hi>Port St. Thomas,</hi> as far from <hi>Port Royal,</hi> there is ſeveral Ale-Houſes and Store-Houſes.</p>
+                  <p>At <hi>Liguania,</hi> the in-ſide of the Harbour, oppoſite to <hi>Port Royal</hi> about two Leagues, is ſeveral Houſes, ſome of them very handſom, and well Built, which place in time is like to become a pretty Town.</p>
+                  <p>
+                     <hi>Port Royal</hi> is Situate on the ex<g ref="char:EOLhyphen"/>tream Point of Land that makes the Harbour: It runs about Twelve Miles from the Main off the Land Weſternly. It has to the South the Sea, to the North the Harbour, which is the largeſt, ſafeſt, and moſt convenient in <hi>America.</hi> This Neck of Land is exceeding narrow, and nothing but a looſe Sand that has neither Graſs, Stone, Water, nor Trees. But being ſo Commodious
+<pb n="12" facs="tcp:52464:12"/> for Ships, that they are Secure all Weathers, and can unload a Float at the Merchants Key: It is the moſt Populous place for Trading in the Iſland, and there only Ships enters and are diſpatch'd. In the <hi>Spaniards</hi> time there was no Houſes, the Sea-men of <hi>Cromwel</hi>'s Fleet begun the Town, by Building Store-Houſes, and called it <hi>Cogway,</hi> as we judge corruptly, from the <hi>Spaniſh</hi> word <hi>La aguia.</hi> Col. <hi>Doyly</hi> cauſed it to be laid out as a Town, but not very Regularly. In Sir <hi>Char. Littleton</hi>'s time it was called <hi>Port Royal,</hi> from the Excellency of the Harbour. It now contains above 1500 Houſes, there is a Houſe, though none of the beſt, belonging to the King: And in the Earl of <hi>Carlile</hi>'s time a fine New Church, Built partly by Liberal Subſcription of divers Gentlemen Inhabiting the Iſland, and partly by an Aſſeſsment laid upon the Inhabitants of the Port.</p>
+                  <pb n="13" facs="tcp:52464:12"/>
+                  <p>Going from <hi>Port Royal</hi> to St. <hi>Jago de la Vega,</hi> People Land at Paſſage, where a Fort was in Col. <hi>Doyly</hi>'s time, and there is about Thirty Houſes that are Store-Houſes, Ale-Houſes, and Horſe-keepers, and Hackney Coaches; this being the greateſt Paſſage in the Iſland, it is two Leagues from <hi>Port Royal</hi> by Sea, and ſix Miles from St. <hi>Jago</hi> by Land.</p>
+                  <p>St. <hi>Jago de la Vega</hi> is Situated in a large Plain by a River that is called <hi>pro de Cabre,</hi> as having a taſte of that Metal, or coming out of thoſe Moun<g ref="char:EOLhyphen"/>tains in <hi>Liguania,</hi> where the <hi>Spaniards</hi> told us they found of it. This Town was almoſt quite Deſerted when Sir <hi>Tho. Lynch</hi> came to the Government, but in his time about Forty Houſes were Built, and Re<g ref="char:EOLhyphen"/>paired about one Hundred more. The Grand Court is holden Quar<g ref="char:EOLhyphen"/>t<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rly in this Town, and a Fair was Erected in Sir <hi>Tho. Lynch</hi> his time;
+<pb n="14" facs="tcp:52464:13"/> it has one <hi>Spaniſh</hi> Church, and Gen<g ref="char:EOLhyphen"/>tlemens Houſes that made it look well during the time the Governour Lived there, but ſince that time it is much increaſed in Number of Beautiful Buildings and Inhabitants.</p>
+                  <p>At <hi>Old Harbour,</hi> about ſeven Miles Weſt from St. <hi>Jago,</hi> are about Thirty Houſes for the Uſes and Ac<g ref="char:EOLhyphen"/>commodation of Veſſels, and Store-Houſes for Planters Goods, this be<g ref="char:EOLhyphen"/>ing eſteemed the beſt Harbour, ex<g ref="char:EOLhyphen"/>cepting <hi>Port Royal,</hi> in the South ſide. By the <hi>Spaniards</hi> it was more Frequented.</p>
+                  <p>At <hi>Withy Wood,</hi> Twenty Miles to the Weſt, is about forty or fifty Houſes for the Accommodation of Veſſels, that Road being more fre<g ref="char:EOLhyphen"/>quented than any other on the South ſide, there being good Land, many Settlements, and a Pleaſant Coun<g ref="char:EOLhyphen"/>trey all about it.</p>
+                  <p>At the Extenſive Point of <hi>Port Royal</hi> was Built a Round Tower by
+<pb n="15" facs="tcp:52464:13"/> 
+                     <hi>Cromwel</hi>'s Sea-men in 1656, in 1657 and 1658 Col. <hi>Doyly</hi> laid the Foun<g ref="char:EOLhyphen"/>dation of a more Regular one, which Sir <hi>Charles Littleton</hi> near Fi<g ref="char:EOLhyphen"/>niſhed in 1664, and Sir <hi>Tho. Mody<g ref="char:EOLhyphen"/>ford</hi> in his time, which was to the Year 1671, quite finiſhed, and Mounted in it about 36 Guns, Em<g ref="char:EOLhyphen"/>ploying the Round Tower only as a Store-Houſe for Ammunition. Be<g ref="char:EOLhyphen"/>ſides this he Built a Breaſt-work of ſtone, that run from the Harbour to the Sea about 200 Yards, this was to Defend the Town from any ſur<g ref="char:EOLhyphen"/>prize by Land, as the Caſtle was to Defend the Mouth of the Harbour. It was Named by Sir <hi>Charles Little<g ref="char:EOLhyphen"/>ton, Charles Fort,</hi> in Honour of His Majeſty. In Sir <hi>Tho. Lynch</hi> his time was Built a Fort, called <hi>James Fort,</hi> Built by Sir <hi>Thomas,</hi> and the Volun<g ref="char:EOLhyphen"/>tary Contribution of ſome Gentle<g ref="char:EOLhyphen"/>men: On the Iſland Point of the Town, to flank the Ships at turning into the Harbour, and Batter them
+<pb n="16" facs="tcp:52464:14"/> when at Anchor in it, which the Caſtle cannot: He likewiſe made a ſlight Work for that purpoſe at <hi>Pri<g ref="char:EOLhyphen"/>ſon Point,</hi> where ſix Guns were Mounted, and at <hi>Port Morant</hi> four Guns, and a Breaſt-work raiſed to Defend the Port.</p>
+                  <p>Another likewiſe at <hi>Old Harbour,</hi> which was done in Sir <hi>Tho. Lynch</hi> his time, but many more were added in the time of the Earl of <hi>Carliſle.</hi>
+                  </p>
+                  <p>The Commodities the Countrey produces are Excellent Sugars, <hi>Cocoa,</hi> Cotton, Hides, Ginger, Tobacco, Tortoiſe ſhell, Indico, Primento, Fuſtick, Brazilletto, <hi>Lignum Vitae,</hi> Granadilla, Ebony; beſides ſome Gums, <hi>Achot</hi> Drugs, <hi>&amp;c.</hi>
+                  </p>
+                  <p>This Iſland abounds with Cattle, and the Iſlands of <hi>Spaniola, Portico,</hi> and <hi>Cuba</hi> do the like; ſo does many Parts of the Main, the firſt Breed being brought out of <hi>Europe;</hi> for before the Diſcovery, there was none of our Cattel, great or ſmall
+<pb n="17" facs="tcp:52464:14"/> in the <hi>Weſt Indies:</hi> In <hi>Jamaica</hi> they Multiplyed ſo exceedingly, that when the <hi>Engliſh</hi> took the Iſland, a Cow was not worth above a Piece of Eight, and a Horſe half as much. But the Army deſtroy'd them ſo, that in the Year 1671, when Sir <hi>Tho. Lynch</hi> came to the Government, a Cow was worth Twelve or Four<g ref="char:EOLhyphen"/>teen pounds, but by the goodneſs of the Paſture, and the Cattle Sir <hi>Thomas</hi> Imported from the <hi>Spaniards,</hi> they increaſed ſo, that in the Year 1675 they were worth but four pounds <hi>per</hi> Head, one with another. Beſides, here is plenty of good ſprightly Horſes, ſome Mules and Aſnegroes, abundance of Hogs, Goats, and Sheep, whoſe Wool is hairy, the Fleſh not generally ſo good as in <hi>England;</hi> they breed often, but live not well, unleſs about <hi>Al<g ref="char:EOLhyphen"/>ligater Ponds.</hi> Rabbets live well enough, but there's no Hare nor Deer in the Iſland.</p>
+                  <pb n="18" facs="tcp:52464:15"/>
+                  <p>In this Countrey is Hens, Turkeys, and Ducks, bred better, and are better fleſh than in <hi>England.</hi> Geeſe are but rare, there's abundance of Excellent Wild Fowl, as <hi>Guiny</hi> Hens, Flemingoes, Teale, Ducks, Curlews, with great variety of Pidgeons, Tur<g ref="char:EOLhyphen"/>tles, Parrots, Maces, and other Birds, whoſe Fleſh is good, and Feathers finely coloured.</p>
+                  <p>There is ſtore of Fiſh, both in the Sea and divers Rivers, not much common to <hi>England,</hi> but a King of Lobſter, Craw-fiſh, Eels, Mullers, and <hi>Spaniſh</hi> Mackrael, with abun<g ref="char:EOLhyphen"/>dance of all ſorts of Admirable Fiſh proper to thoſe Seas. Tortoiſe are taken much on this Coaſt, but chiefly at the Iſland <hi>Cay Manos,</hi> 30 Leagues to the Weſt of this Iſland, whither the Veſſels go <hi>May, June,</hi> and <hi>July</hi> to Load of their Fleſh that they Pickle in Bulk, and take them in that Seaſon, when they come on ſhore to lay their Eggs, which they
+<pb n="19" facs="tcp:52464:15"/> do, and cover them with Sand that hatches them, and then by inſtinct they crawl to the Sea, where they Live, and feed on Weeds that grows in the bottom, or floats. In many Rivers and Ponds of <hi>Jamaica</hi> there's vaſt Numbers of Crocodiles, or Al<g ref="char:EOLhyphen"/>legators, that is an Amphibious Creature, and breeds of an Egg, hatch'd by the Sun in the ſand. A Tortoiſe Egg is juſt like the Yolk of a Hen-Egg, of which ſhe lays near a Peck at a time; but the Allegator but a few, and are like a Turkeys; their Fleſh is not good, they are voracious, and live on Fowls and Beaſts that they catch by ſurprize, but ſeldom or never hurt any Man.</p>
+                  <p>Here's an <hi>Indian</hi> Coney, called <hi>Raccoones,</hi> that is good Meat, but of a diſtaſtful ſhape, being ſome<g ref="char:EOLhyphen"/>thing like an over-grown Rat: The Snakes in this Iſland are not at all hurtful, but were eaten by the <hi>In<g ref="char:EOLhyphen"/>dians</hi> as <hi>Regaloes,</hi> as the <hi>Guanaes</hi> are
+<pb n="20" facs="tcp:52464:16"/> by the <hi>Spaniards;</hi> it is but ſmall, and of the ſhape of an Allegator, the Fleſh is ſweet and tender: The moſt Offenſive thing in this Iſland are divers ſorts of Flies, called <hi>Mery<g ref="char:EOLhyphen"/>wings,</hi> from their Noiſe; <hi>Mutquet<g ref="char:EOLhyphen"/>toes,</hi> from their Littleneſs; <hi>Galli<g ref="char:EOLhyphen"/>nippors,</hi> from their Biting; for all ſting and trouble People exceeding<g ref="char:EOLhyphen"/>ly: And in ſome parts of the North there's little ugly Creatures, called by the <hi>Engliſh Gallivaches,</hi> whoſe bite is Mortal to Dogs, Goats, <hi>&amp;c.</hi>
+                  </p>
+                  <p>There is in this Iſland none of the Fruit common to <hi>Europe</hi> but Oranges, Lemons, and Limes (a Baſtard Lemon) Citrons, Pomgra<g ref="char:EOLhyphen"/>nats, Grapes grow well enough; here is a Wild ſort the <hi>Spaniards</hi> made Red Wine of: The <hi>Engliſh</hi> have but few Vines, and they require much time to Cultivate them, and are ſo difficultly defended from the Parrots, and other Birds, and not Ripening altogether. We think it
+<pb n="21" facs="tcp:52464:16"/> impoſſible to make Wine without great quantities and great Labour; for in the Countrey after every Sea<g ref="char:EOLhyphen"/>ſon there's a Spring, ſo that the Grapes and all Fruits ſhoot out after, it have therefore Bloſſoms, Young Fruit, and Ripe all at the ſame time. Beſides theſe Fruit in <hi>Jamaica,</hi> there is abundance of <hi>Plantains, Bonanoes, Tamarinds, Cathus, Guavaes, Mum<g ref="char:EOLhyphen"/>mees,</hi> and ſmall <hi>Oyſters</hi> that grow in Cluſters on Mangroves by the Sea-ſide, <hi>Sapolaes, Supotilla, Adue<g ref="char:EOLhyphen"/>cades, Star-Apples, Cuſtard-Apples,</hi> and <hi>Prickle-Apples, Pears, Pine-Apples, Prickle-Pears, Plumbs</hi> of divers ſorts.</p>
+                  <p>The Common Bread that Ordi<g ref="char:EOLhyphen"/>nary Planters and Servants uſe, is <hi>Caſſader,</hi> in its ſtead <hi>Potatoes.</hi> But the Gentlemen make Bread of Flour that comes from <hi>England</hi> and <hi>New York.</hi>
+                  </p>
+                  <p>
+                     <hi>Engliſh</hi> Flowers would grow in this Iſland without Care and Charge,
+<pb n="22" facs="tcp:52464:17"/> but they have large and extraordi<g ref="char:EOLhyphen"/>nary Jeſſemine-Trees, and other Odoriferous Trees and Plants.</p>
+                  <p>Likewiſe there grows exceeding well all our Summer Herbs, ſo does Peaſe, Beans, Cabbage; and Tur<g ref="char:EOLhyphen"/>neps, though not very well. But Carrots, Raddiſh, Onions pretty well. By Art, Care, and Pains Gar<g ref="char:EOLhyphen"/>dinage would do better here than in the South parts of <hi>Spain;</hi> for though our Rains are more violent, our Droughts are not ſo frequent and long.</p>
+                  <p>In this Iſland are abundance of Medicinal Herbs, Roots, and Plants. We have <hi>Venillaes;</hi> here's <hi>China, Sar<g ref="char:EOLhyphen"/>ſaparilla, Gum Guaicum, Benjamin,</hi> &amp;c.</p>
+                  <p>The Common Drink of the Gen<g ref="char:EOLhyphen"/>tlemen is <hi>Madera</hi> Wine and Water; at the Sugar-works they make Drink of <hi>Malaſſes,</hi> in other places of <hi>Caſ<g ref="char:EOLhyphen"/>ſader,</hi> which they call <hi>Perinoe,</hi> and of <hi>Potatoes,</hi> called <hi>Mobbie;</hi> and like<g ref="char:EOLhyphen"/>wiſe
+<pb n="23" facs="tcp:52464:17"/> of <hi>Bonanoes.</hi> A Drink is made of a Spirit, called <hi>Rum,</hi> Diſtilled from the Canes, they make great quantities, which does Miſchief, be<g ref="char:EOLhyphen"/>ing very ſtrong and unpleaſant, yet drunk by the Ordinary People ex<g ref="char:EOLhyphen"/>ceſſivly, that cauſes Drunkenneſs, Diſorder, Poverty, Diſeaſes.</p>
+                  <p>The 11th. of <hi>October,</hi> 1492, <hi>Col<g ref="char:EOLhyphen"/>lumbus</hi> Diſcovered the <hi>Lucca's Iſlands, Spaniola,</hi> and <hi>Cuba,</hi> and ſhortly after return'd for <hi>Spain.</hi> In his ſecond Voyage, endeavouring to round <hi>Cuba,</hi> to know whether it was an Iſland or no, he Diſcovered <hi>Jamaica</hi> the 14th. of <hi>May,</hi> 1494. and called it St. <hi>Jago,</hi> which Name did not take, he ſtaid but little on it at its Diſco<g ref="char:EOLhyphen"/>very; but in his Third Voyage, in the Year 1503, the 23d. of <hi>June,</hi> he arrived there again, Ship-wrackt, and in great Diſtreſs, his Veſſels quite diſabled, Proviſions ſpent, and Men ſick and diſ-heartened with their Misfortunes. At <hi>Veragua</hi> on
+<pb n="24" facs="tcp:52464:18"/> the Coaſt of the Main, the firſt Road he fell in with he did not like, but went further Weſt to a Port he called <hi>Sancta Gloria,</hi> and there run his ſhips on ground and laſh'd them toge<g ref="char:EOLhyphen"/>ther, and Lodg'd on their Decks, the <hi>Indians</hi> being Numerous, for at this time it was ſuppoſed there was above 60000 Families of them on this Iſland. <hi>Collumbus</hi> lay about two Months in a moſt Miſerable Condi<g ref="char:EOLhyphen"/>tion, the ingrateful <hi>Spaniards</hi> and Malicious Governour of St. <hi>Domingo</hi> ſending him no Relief, on purpoſe to make him Periſh; and in this Fa<g ref="char:EOLhyphen"/>tal time the <hi>Porra's,</hi> three Brothers of <hi>Sevil,</hi> Rebelled, which <hi>Collum<g ref="char:EOLhyphen"/>bus</hi>'s Brother ſuppreſs'd; ſo that in this Iſland was the firſt Civil War and Blood-ſhed betwixt the <hi>Spani<g ref="char:EOLhyphen"/>ards</hi> in <hi>America.</hi> In the time this great Unfortunate Man ſtaid thus Miſerably, and ſhip-wrackt on the North ſide of <hi>Jamaica,</hi> it's ſuppoſe<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> they began to ſettle a Deſign to Plant
+<pb n="25" facs="tcp:52464:18"/> finding this Iſland very fertile, and the Natives more civil and ingeni<g ref="char:EOLhyphen"/>ous than any of the other Iſlanders. And at this time began that Town, the old Maps call <hi>Metilla,</hi> that we think were about Fig-tree on the North ſide, which was but by lit<g ref="char:EOLhyphen"/>tle advanced, then they deſerted it. Eight or ten Leagues further Weſt, finding a better Bay they call'd St. <hi>Anns,</hi> which Names is continued by us. And here they began to ſettle, and in ſome years built a handſom <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>arge Town named <hi>Sevil,</hi> that had ſome Sugar Works, and good Plan<g ref="char:EOLunhyphen"/>tations about it, and a very conſide<g ref="char:EOLhyphen"/>rable Abbey in it; the Abbots were alwaies the Biſhops Suffragan, and chief in all Eccleſiaſtical affairs; there's ſome Pillars of this left, and a Portal of the Church, with the Emperour <hi>Charles</hi> the Fifths Arms over it, and an Inſcription that ſays; <hi>Petrus Martir Anuleria Abbas <g ref="char:V">Ʋ</g>nius Inſule, eadem hanc Biſigne conſump<g ref="char:EOLhyphen"/>tam
+<pb n="26" facs="tcp:52464:19"/> Letantio &amp; quadrata Lapido a fundamentis extruxit.</hi> This being a moſt learned Millener, that had ſerved King <hi>Ferdinand</hi> as Confeſſor and Embaſſador to <hi>Grand Cape,</hi> and being of the Emperours Council for the <hi>Indies,</hi> of which he wrote the <hi>Decades.</hi> It may be ſuppos'd <hi>Ja<g ref="char:EOLhyphen"/>maica</hi> was then in great eſteem. This Town flouriſh'd till about the year 1590. then the <hi>Spaniards</hi> deſerted, as they ſay, becauſe their Children could not live there. But we rather believe, becauſe the North ſide was Mountainous and unpleaſant; and on the South were huge plain <hi>Sa<g ref="char:EOLhyphen"/>vannaes,</hi> which we ſuppoſe were Fields of <hi>Indian</hi> Corn and <hi>Caſſader</hi> that were proper for Cattle, of which the <hi>Spaniards</hi> now have grea<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> plenty. Beſides, the South had better Ports, was nearer, and had greater Commerce with the rich Country o<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> the <hi>Maine,</hi> then the North could have, which might reaſonably e<g ref="char:EOLhyphen"/>nough
+<pb n="27" facs="tcp:52464:19"/> induce them to change Situa<g ref="char:EOLhyphen"/>tions, and fix on that of the <hi>Jago de la Vega,</hi> or St. <hi>James</hi> upon the Plain, where they were ſettled 70 years. Before the <hi>Engliſh</hi> under General <hi>Ve<g ref="char:EOLhyphen"/>nables,</hi> the 10th of <hi>May,</hi> 1655. took it, it had about 17 years before been ſurpriz'd by one <hi>Jackson,</hi> with a Fleet of <hi>Engliſh</hi> Privateers, who, for a thouſand Beeves quitted the Town, having no deſign but to Cruiſe. But <hi>Crumwell</hi> ſent his Army to ſeize <hi>Spa<g ref="char:EOLhyphen"/>niola,</hi> or ſome place that was conve<g ref="char:EOLhyphen"/>nient for a Collony and ſeat of War, he having miſt St. <hi>Domingo</hi> they re<g ref="char:EOLhyphen"/>ſolved to fix here; nor were they like to be beaten out, for there was not many Native <hi>Indians</hi> left, they being long before deſtroy'd by the <hi>Spaniards;</hi> and of the <hi>Spaniards</hi> there was not above 550 Men, 600 Women, and 1500 Slaves; there was no Militia or Fortification. The Town had in it two Churches, four Chappels, about 1200 Houſes of all
+<pb n="28" facs="tcp:52464:20"/> ſorts; the Streets Regular, but Houſes low and like Barns: all the <hi>Spaniards</hi> and their Wives and Chil<g ref="char:EOLhyphen"/>dren dwell in them, and had their Servants and Slaves in the Country, to manage their Cattel, Sugar works, and Cocoa Walks, and furniſh them with Proviſions, which they lazily and luxuriouſly ſpent in the Town; the Trade they had was with <hi>Carta<g ref="char:EOLhyphen"/>gena</hi> and <hi>Portobella,</hi> and ſometimes with Interlopers. There Merchan<g ref="char:EOLhyphen"/>dize was Hides, Cocoa, Tallow, Su<g ref="char:EOLhyphen"/>gar, Pimento, with which they bought what they needed. The diſ<g ref="char:EOLhyphen"/>covery of <hi>Nova Hiſpana</hi> and <hi>Perue</hi> unpeopled this Iſland, as it did <hi>Por<g ref="char:EOLhyphen"/>terico, Spaniola</hi> and <hi>Cuba,</hi> people be<g ref="char:EOLhyphen"/>ing leſs ſafe and rich in them after the <hi>Engliſh</hi> and <hi>Dutch</hi> Privateers be<g ref="char:EOLhyphen"/>gan to infeſt theſe <hi>Indias;</hi> beſides the Inhabitants of <hi>Jamaica</hi> were diſ<g ref="char:EOLhyphen"/>couraged by being Tennant or Vaſ<g ref="char:EOLhyphen"/>ſals to a Proprietor; for about the year 1560. as we gueſs, this Iſland
+<pb n="29" facs="tcp:52464:20"/> was given to the Heirs of <hi>Collumbus,</hi> in compenſation for the perpetual Vice-Roy-ſhip and Admiralty of theſe <hi>Indies:</hi> ſo they were called Dukes <hi>De la Vaga,</hi> now <hi>De Veragua,</hi> their eldeſt Son a Marquis, one Dr. <hi>Fulano Ramizer</hi> was Governour for the Duke <hi>De Veragua,</hi> when the <hi>Engliſh</hi> came in 1655. he was an old decrepid man: ſo retreated with the Prieſts, Women and Children into the Iſland and Mountains, and left the Serjeant Major <hi>D' Chriſtovall de Alvares Sali,</hi> that was afterwards Go<g ref="char:EOLhyphen"/>vernour, to treat with the General of the <hi>Engliſh</hi> Army, which was Col. <hi>Venables. Penn</hi> Commanded the Fleet, but both and the whole Deſign was to be Governed by Commanders, which were the two Generals Col. <hi>Searle</hi> Governour of <hi>Berbados,</hi> Col. <hi>Everard</hi> Governour of St. <hi>Chriſto<g ref="char:EOLhyphen"/>phers,</hi> Col. <hi>Butler</hi> and Major <hi>Winſlow</hi> that went with the Army, which con<g ref="char:EOLhyphen"/>ſiſted of ſix Regiments Commanded
+<pb n="30" facs="tcp:52464:21"/> by General <hi>Venables.</hi> Col. <hi>Forteſcue</hi> that after <hi>Haynes</hi> his Death was made Ma<g ref="char:EOLhyphen"/>jor General, Col. <hi>Anthony Butler,</hi> Col. <hi>Holdup,</hi> and Col. <hi>Doyly,</hi> with two Troops one brought from <hi>Eng<g ref="char:EOLhyphen"/>land,</hi> and Commanded by Captain <hi>Jones;</hi> the otheer rais'd at <hi>Barbados,</hi> Commanded by Capt. <hi>Carter;</hi> theſe Landed with the Army and Regi<g ref="char:EOLhyphen"/>ment of Seamen, Commanded by Vice-Admiral <hi>Goodſon.</hi>
+                  </p>
+                  <p>The Fleet conſiſted of about 30 Sail of Men of War, and as many other Veſſels and <hi>Dutch</hi> Ships, which were ſeized at <hi>Barbados.</hi> At our Ar<g ref="char:EOLhyphen"/>rival the <hi>Spaniards</hi> pretended to de<g ref="char:EOLhyphen"/>liver the Iſland by Treaty, but the General ſoon found they only by this Artifice endeavoured to get time to ſecure the Women, Chil<g ref="char:EOLhyphen"/>dren and Wealth in the Mountains: ſo about 20 daies after the Armies Landing, the General ſent out Par<g ref="char:EOLhyphen"/>ties to purſue them; ſometimes we took of theſe miſerable People;
+<pb n="31" facs="tcp:52464:21"/> ſometimes they ſurpriz'd and kill'd of ours, ſtrangling and ſtarving Sol<g ref="char:EOLhyphen"/>diers: But the Stores of the Army being Landed, which were exceed<g ref="char:EOLhyphen"/>ing great and convenient, the groſs of the Fleet and two Generals, re<g ref="char:EOLhyphen"/>turn for <hi>England;</hi> in their way of the <hi>Havanna</hi> they met the <hi>Spaniſh</hi> Fleet, which they had eaſily taken if they had known them. The Ships that ſtaid was commanded by Ad<g ref="char:EOLhyphen"/>miral <hi>Goodſon,</hi> the Army by Major General <hi>Forteſcue;</hi> the laſt in 1656. died, leaving the Souldiers in a moſt miſerable and periſhing condition; many were dead, moſt ſick, their Stores ſpent, the <hi>Spaniſh</hi> Plantations, and their vaſt numbers of Cattel all deſtroy'd, or run wild, and the Fleet in no better condition. On <hi>Forteſ<g ref="char:EOLhyphen"/>cues</hi> Death, Col. <hi>Carter</hi> ſhould have Commanded, but being ſick he re<g ref="char:EOLhyphen"/>ſign'd to Col. <hi>Doyly,</hi> and died quick<g ref="char:EOLhyphen"/>ly after. This lamentable Command Col. <hi>Doyly</hi> held about a year. Then
+<pb n="32" facs="tcp:52464:22"/> Major General <hi>Sedgwick</hi> came to Command, and brought ſome Stores and Recruits of Men out of <hi>Ireland.</hi> But before he was well in this Office he died; ſo did Sir <hi>William Aylesbu<g ref="char:EOLhyphen"/>ry</hi> about 8 Months after he came over with <hi>Sedgwick;</hi> and after his Death, was by the Commiſſioners made one of them; for in the Inter<g ref="char:EOLhyphen"/>vals, the Armys was Commanded by the Commiſſioners, and the chief power lodg'd in them, who ſucceed<g ref="char:EOLhyphen"/>ed, and appointed one another when any Died or went away. On Ge<g ref="char:EOLhyphen"/>neral <hi>Sedgwicks</hi> death, the Com<g ref="char:EOLhyphen"/>mands Reverts again on Col. <hi>Doyly.</hi> In this time the condition of the Ar<g ref="char:EOLhyphen"/>my, if it was poſſible, grew yet more lamentable; thoſe that were not ſick were diſcontented and Mu<g ref="char:EOLhyphen"/>tinous, ready to have run to the <hi>Spaniards,</hi> if they had known where to have found them, which occaſi<g ref="char:EOLhyphen"/>oned the Diſpute between Major <hi>Throgmorton</hi> and the General: for
+<pb n="33" facs="tcp:52464:22"/> the Major was employ'd by the Of<g ref="char:EOLhyphen"/>ficers of the Army to Petition the Commiſſioners for our Pay; if an Army, for ſubſiſtance; to return, if no Army. Col. <hi>Doyly</hi> was privy to this, but before the Commiſſioners denied it, which made <hi>Throgmorton</hi> Impeach him; to make which good, he was ſecured, and Col. <hi>Doyly</hi> af<g ref="char:EOLhyphen"/>terwards; when <hi>Goodſon</hi> the chief Commiſſioner forms a trifling Charge againſt him; and in defending him<g ref="char:EOLhyphen"/>ſelf, <hi>Throgmorton</hi> (a paſſionate young Gentleman; alledg'd the Court Marſhall had no power to Try him; whereupon he was thruſt rude<g ref="char:EOLhyphen"/>ly out of the Court, and the hold<g ref="char:EOLhyphen"/>ing up his Hand to ſave his Head, when the Marſhal offer'd to ſtrike him with the Hilt of his Sword, was on the Marſhal Generals Oath Judg'd a reſiſting of him: ſo the moſt un<g ref="char:EOLhyphen"/>happy, moſt ingenious and hanſom man that ever was on <hi>Jamaica,</hi> was ſhot to death, in which his Col. <hi>Bar<g ref="char:EOLhyphen"/>rington</hi>
+                     <pb n="34" facs="tcp:52464:23"/> had as great a hand as the General.</p>
+                  <p>In 1657. <hi>Cromwell</hi> ſent over Col. <hi>Richard Bryan</hi> to Command, with two Regiments out of <hi>Scotland</hi> and <hi>Ireland;</hi> the one was his own, the other Col. <hi>Moors,</hi> both the beſt men that ever came to <hi>Jamaica.</hi> During the time of his Government, came Col. <hi>Stokes,</hi> the Governour of <hi>Me<g ref="char:EOLhyphen"/>vis,</hi> as one of the Commiſſioners, with about 1700 People of all ſorts, and they ſettle at <hi>Portmorant,</hi> where they began the firſt Plantation and Civil Government. But almoſt all theſe Planters, with General <hi>Stokes</hi> and General <hi>Bryan,</hi> die. In a ſhort time <hi>Bryan</hi> was infinitely lamented, being a wiſe man, and perfectly qua<g ref="char:EOLhyphen"/>lif<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ed for the Command and Deſign: ſo the Government again falls to Col. <hi>Doyly,</hi> that neither loved, encou<g ref="char:EOLhyphen"/>raged, nor underſtood Planting: In all this time the Fleet did nothing, only <hi>Goodſon</hi> had taken <hi>Santa Mar<g ref="char:EOLhyphen"/>tha
+<pb n="35" facs="tcp:52464:23"/> Rio de Hach,</hi> and ſome ſuch pitiful places that relieved the Sea men, but was no benefit to the Army, which now almoſt periſh'd by Diſ<g ref="char:EOLhyphen"/>eaſes and want, tho they had divers ſupplies from <hi>England,</hi> yet the co<g ref="char:EOLhyphen"/>vetouſneſs, and ill conduct of the Officers, hindred them from making the beſt uſe of that, and the good Land that they were Maſters of. But thoſe that ſurvived, being the moſt induſtrious and ſpirited men, were now grown ſeaſon'd and acquainted with the <hi>Indias,</hi> and thereby capa<g ref="char:EOLhyphen"/>ble of doing more than the great Army; and <hi>Cromwell</hi> having ſent Capt. <hi>Mints</hi> in a Third Rate Frigat, Capt. <hi>Heytub</hi> in a Fifth, and Capt. <hi>Heylin</hi> in a Sixth, Col. <hi>Doyly</hi> puts on Board them 300 Souldiers Com<g ref="char:EOLhyphen"/>manded by Major <hi>Wilbraham,</hi> Capt. <hi>Thomas Morgan,</hi> and Capt. <hi>Linch,</hi> theſe being got high enough to wind-ward, Landed and took <hi>Cu<g ref="char:EOLhyphen"/>mana;</hi> afterwards rang'd down all
+<pb n="36" facs="tcp:52464:24"/> that Coaſt, and Landed again at <hi>Puerto Cavalla Babanta,</hi> where they took two Ships thence again for <hi>Co<g ref="char:EOLhyphen"/>row,</hi> where they met with about 30 or 40 Cheſts of the King's Money, ſo returned to <hi>Jamaica,</hi> with more Plunder in Money, Plate and Jewels than ever was brought thither before by the <hi>Engliſh.</hi>
+                  </p>
+                  <p>In 1658. the <hi>Spaniards</hi> Landed 300 men at <hi>Chircras,</hi> on the North ſide, and endeavour'd to Fortifie and provide for a great Body that was to come from <hi>New Spain,</hi> by way of St. <hi>Jago de Cuba:</hi> But the General having notice, ſent a Party that Razed the Fort, and kill'd and took almoſt all the <hi>Spaniards.</hi> Be<g ref="char:EOLhyphen"/>fore this time, all the Women and Children were gone to <hi>Cuba,</hi> and only the men and Slaves remained under the Command of the Go<g ref="char:EOLhyphen"/>vernour, who skult up and down the Mountains, and lived ſo wretch<g ref="char:EOLhyphen"/>ed a life, that moſt of his <hi>Negroes</hi>
+                     <pb n="37" facs="tcp:52464:24"/> had deſerted him, and were come in to ſubmit to the <hi>Engliſh</hi> General, under the conduct of one <hi>Juan de Bola,</hi> an ingenious Slave, that had from Col. <hi>Doyly</hi> a Commiſſion (as 'twas call'd) to ſettle with them at <hi>Caymanos</hi> by St. <hi>Jago,</hi> where he Go<g ref="char:EOLhyphen"/>vern'd them, and was afterwards kill'd by ſome of our Run-away <hi>Ne<g ref="char:EOLhyphen"/>groes.</hi>
+                  </p>
+                  <p>In 1659. the <hi>Spaniards</hi> ſent the long expected Body of men, that conſiſted of about 1200. who Land<g ref="char:EOLhyphen"/>ed and fortified at <hi>Rio Nova,</hi> on the North ſide; as ſoon as we had no<g ref="char:EOLhyphen"/>tice, the General himſelf went thi<g ref="char:EOLhyphen"/>ther with about 600 choice men and Volunteers that were embarked on the <hi>Grantham</hi> a Fifth Rate, and <hi>Blackmore</hi> a Sixth Rate, and ſome other ſmall Veſſels, who Landed the General and his men in the very Port; the next day they Attaqued and took the Fort, the moſt of the <hi>Spaniards</hi> being kill'd and taken in
+<pb n="38" facs="tcp:52464:25"/> it, which was the braveſt and laſt Action the <hi>Engliſh</hi> Army did on <hi>Ja<g ref="char:EOLhyphen"/>maica,</hi> for after this the <hi>Spaniard</hi> ſent no more People or Supplies. But the Governour <hi>Don Chriſtopher</hi> en<g ref="char:EOLhyphen"/>deavour'd to get off himſelf. The latter end of this year Col. <hi>Doyly</hi> ſent to <hi>Cromwell</hi> 10 or 12 Colours as Marks and Trophies of this Victory. But the Meſſenger Col. <hi>Barry</hi> found him Dead: ſo he never had one ſyl<g ref="char:EOLhyphen"/>lable of any thing that was grateful from the vaſteſt Expence and greateſt Deſign that was ever made by the <hi>Engliſh.</hi>
+                  </p>
+                  <p>In 1660. there was a Mutiny, for which Col. <hi>Tyſon</hi> and Col. <hi>Boymond</hi> was ſhot to Death.</p>
+                  <p>In 1661. his Majeſty ſent Col. <hi>Doyly</hi> a Commiſſion for Governour, with order to Disband the Army; upon which he Erects a Civil Go<g ref="char:EOLhyphen"/>vernment, and People begin to Plant, judging the Iſland would not be ſur<g ref="char:EOLhyphen"/>rendred again to the <hi>Spaniard.</hi>
+                  </p>
+                  <pb n="39" facs="tcp:52464:25"/>
+                  <p>In 1662. came my Lord <hi>Windſor</hi> a Governour, and brought with him <gap reason="illegible" resp="#MURP" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Donative of 20000 l. which the King was pleaſed to give the Army at their Disbanding. My Lord pre<g ref="char:EOLhyphen"/>ſently after his Arrival, ſent Capt. <hi>Mims</hi> in the <hi>Centurion,</hi> with ſome Souldiers to take St. <hi>Jago de Cuba,</hi> which they performed with moſt Remarkable Reſolution and Succeſs on their return. My Lord being ve<g ref="char:EOLhyphen"/>ry ſick and uneaſie, embarques on the <hi>Bear</hi> for <hi>England.</hi>
+                  </p>
+                  <p>Sir <hi>Charles Littleton</hi> in 1633. is Deputed Governour by my Lord <hi>Windſor;</hi> he ſent Capt. <hi>Mimms</hi> in the <hi>Centurion,</hi> with divers Privateers and Land-men in the Bay of <hi>Cam<g ref="char:EOLhyphen"/>peach,</hi> where he bravely enough took the Town, but no great Plunder, neither there nor at St. <hi>Jago.</hi> In Sir <hi>Charles Littleton</hi>'s time was <hi>Charles</hi> Fort almoſt built, the Government form'd, and the firſt Aſſembly call'd, and Laws made; But he being ſick, and
+<pb n="40" facs="tcp:52464:26"/> having left all his Family, was like<g ref="char:EOLhyphen"/>wiſe diſpoſed to return, and having the King's Licence for; as alſo an Order to Inveſt the Council with the Power.</p>
+                  <p>In the beginning of 1664. the Council choſe Col. <hi>Thomas Linch</hi> their Preſident, and Sir <hi>Charles Lit<g ref="char:EOLhyphen"/>tleton</hi> made him Commander in chief, which he exercis'd till the Ar<g ref="char:EOLhyphen"/>rival of Sir <hi>Thomas Modyford.</hi>
+                  </p>
+                  <p>Sir <hi>Tho. Modyford</hi> came in <hi>June,</hi> 1664. and a week before him Col. <hi>Edw. Morgan;</hi> and now People be<g ref="char:EOLhyphen"/>gan vigorouſly to apply themſelves to Planting, Sir <hi>Thomas</hi> underſtand<g ref="char:EOLhyphen"/>ing and incouraging it exceedingly. In the <hi>Griffin</hi> he ſent his eldeſt Son, the Major General, for his Lady: But the Frigat and he was both caſt away near the Gulph of <hi>Florida;</hi> ſo ſhe came not till the year follow<g ref="char:EOLhyphen"/>ing. At the beginning of his Go<g ref="char:EOLhyphen"/>vernment he endeavour'd a Peace with the <hi>Spaniards:</hi> But not being
+<pb n="41" facs="tcp:52464:26"/> able to effect it, he encourages the Privateers; and Capt. <hi>Henry Mor<g ref="char:EOLhyphen"/>gan</hi> having ſignalized his courage by burning a <hi>Spaniſh</hi> Admiral that ſhut him and Capt. <hi>Pennant,</hi> and other Privateers, up in the Bay of <hi>Mari<g ref="char:EOLhyphen"/>caio;</hi> Sir <hi>Thomas</hi> made uſe of him to Imbody the Privateers, which he effects in the year 1668. and Sir <hi>Thomas</hi> makes him Admiral. And that joyning with ſeveral <hi>French,</hi> by the aſſiſtance of a <hi>Dutch</hi> man, Lands in the Bay, and came over the Moun<g ref="char:EOLhyphen"/>tains by night into the Town of <hi>Porto Bello,</hi> which they ſurpriz'd and reſolutely took the Caſtle that com<g ref="char:EOLhyphen"/>manded the Town: and afterwards that which commanded the Har<g ref="char:EOLhyphen"/>bour, then quitted both, having —pieces of Eight for delivering the Powder, and not Razing their Forts. With this Money he brought the Plague to <hi>Jamaica</hi> that kill'd my Lady <hi>Modyford,</hi> and many People. And in the year following Sir <hi>Thomas
+<pb n="42" facs="tcp:52464:27"/> Modyford</hi> employ'd Major <hi>Beeſton</hi> to draw the Privateers together again, to ſerve under Admiral <hi>Morgan;</hi> which he effected, and they joyning with divers <hi>French</hi> Veſſels went for <hi>Panama,</hi> and bravely took the Fort of <hi>Changra.</hi> But before they came to <hi>Panama,</hi> they found it ſet on fire by the Preſident, ſo returned to their Ships; but in beating up to <hi>Jamaica</hi> many Veſſels fail'd, ſo that Men moſt miſerably periſh'd on barren Iſlands and Rocks. By this and ſuch like Deſigns, many brave men were loſt, and no real advantage brought to the Iſland. And in the year 1670. the Treaty about the <hi>Weſt Indies</hi> was concluded at <hi>Madera,</hi> and Sir <hi>Thomas Modyford</hi> removed.</p>
+                  <p>Sir <hi>Thomas Linch</hi> made his Maje<g ref="char:EOLhyphen"/>ſties Lieutenant, Governour and Commander in Chief, and arrived at <hi>Jamaica, June</hi> 24. 1671. The ſame Month he ſent Major <hi>William Beeſton</hi> to <hi>Cartagena</hi> in the <hi>Aſſiſtance</hi>
+                     <pb n="43" facs="tcp:52464:27"/> Frigat to notifie the Peace; and the <hi>March</hi> following, he made Sir <hi>Tho<g ref="char:EOLhyphen"/>mas Modyford</hi> a Priſoner (aboard the Frigat) and ſent him for <hi>Eng<g ref="char:EOLhyphen"/>land</hi> for breaking the Peace with the <hi>Spaniards,</hi> contrary to his Majeſties Expreſs Orders. And five or ſix Months after Admiral <hi>Morgan,</hi> on the ſame account, Sir <hi>Thomas Linch</hi> endeavoured to procure a good un<g ref="char:EOLhyphen"/>underſtanding between the two Na<g ref="char:EOLhyphen"/>tions, according to the Treaty and his Orders, and put to Death. One <hi>Jonſon</hi> a <hi>Dutch</hi> man, which was the only Privateer ever ſuffered for all the Murther, Rapine and Violence thoſe diſſolute People have com<g ref="char:EOLhyphen"/>mitted on the <hi>Spaniards.</hi> In his time the <hi>Portland</hi> took a <hi>Caper,</hi> and the <hi>Thomas</hi> and <hi>Francis,</hi> His Maje<g ref="char:EOLhyphen"/>ſties Hir'd Ship, and a Privateer, took a <hi>Dutch</hi> Ship of 544 Negroes, which were more beneficial to the Iſland than all the Prizes ever brought to it. During the time of
+<pb n="44" facs="tcp:52464:28"/> his Government, many Ships were loaded with the Product of the Iſland; before, it never one. And in the end of his Government, Land was riſen to five times the value it was at in the beginning. Col. <hi>Taſ<g ref="char:EOLhyphen"/>ſel</hi> and Mr. <hi>Rogers,</hi> at his command, run a Chain round the Iſland. An exact Mapp and Survey was ſent home by my Lord <hi>Vaughan:</hi> in his time were abundance of Cattel Im<g ref="char:EOLhyphen"/>ported from <hi>Cuba,</hi> which brought down their Price from 12 to 14 <hi>l. per</hi> Head, to 4 and 5 <hi>l.</hi> In his time Fairs and Markets were Erected at St. <hi>Jago, Liguania, Port-Royal,</hi> &amp;c. Sir <hi>Thomas Linch</hi> remitted to the Kings principal Secretary of State, a large and exact State of the Govern<g ref="char:EOLhyphen"/>ment of <hi>Jamaica:</hi> of the Church, the Laws, the Militia, and Revenue, which was in brief thus:</p>
+                  <p>His Majeſty is Soveraign Lord and Proprietor of this Iſland, in all
+<pb n="45" facs="tcp:52464:28"/> Writs, Commiſſions and Grants; He is ſtiled, <hi>King of</hi> England, <hi>&amp;c. and Lord of</hi> Jamaica; the Gover<g ref="char:EOLhyphen"/>nour Repreſents His Perſon, and is inveſted with his Power, being en<g ref="char:EOLhyphen"/>abled by his Commiſſion under the Great Seal, and directed by his In<g ref="char:EOLhyphen"/>ſtruction how to Govern; and it is alwaies during his Majeſties plea<g ref="char:EOLhyphen"/>ſure.</p>
+                  <p>Here 12 Councellours are cho<g ref="char:EOLhyphen"/>ſen by the Governour, and Conſti<g ref="char:EOLhyphen"/>tuted in all Emergencies and Cauſes, like the King's Councel here, the which they Reſemble, and the Houſe of Lords, becauſe they Sit with the Aſſembly; the Governour cannot ſuſpend them without giving Advice to the Principal Secretary of the Cauſe. This Government by pra<g ref="char:EOLhyphen"/>ctice as well as order from His Ma<g ref="char:EOLhyphen"/>jeſty, is Aſſimulated as near as poſ<g ref="char:EOLhyphen"/>ſible to that in <hi>England,</hi> which ren<g ref="char:EOLhyphen"/>ders it grateful to the People, who believe they ought to enjoy their
+<pb n="46" facs="tcp:52464:29"/> Property and Native Right, where they are under the King's Dominion, ſo nothing be inflicted on them but by the courſe of Law, nor taken from them but by Acts themſelves have conſented to. Therefore they have by His Majeſties Order in <hi>Ja<g ref="char:EOLhyphen"/>maica</hi> Aſſemblies that conſiſt of 32 Perſons, choſen indifferently by the Freeholders of the 14 Pariſhes. In theſe Aſſemblies the Governour has a Negative Voice: he Calls, Prorogues and Diſſolves them at pleaſure; the Governour, the Councel, and the Aſſembly are inveſted with the Le<g ref="char:EOLhyphen"/>giſlative Power, and are Convened to make ſome little Municipal Laws, proper to the uſage of the Iſland, about Governing Servants, Slaves, Officers, High-waies, Church, Mi<g ref="char:EOLhyphen"/>litia, but chiefly to raiſe Money for the ſupport of the Government. What Laws they make are to be ſent into <hi>England,</hi> and to be of force but for two years, unleſs the King con<g ref="char:EOLhyphen"/>ſent;
+<pb n="47" facs="tcp:52464:29"/> then perpetual, unleſs Re<g ref="char:EOLhyphen"/>voked as they were made.</p>
+                  <p>There is but ſeven Churches in the Iſland, that is, one at St. <hi>Davids, Liguania, Port-Royal,</hi> St. <hi>Jago,</hi> St. <hi>Johns</hi> and <hi>Vere.</hi> The Governour ſeems to be the King's Deputy, or Bi<g ref="char:EOLhyphen"/>ſhop of <hi>London</hi>'s Suffragan, for he Preſents and Inducts; and the Par<g ref="char:EOLhyphen"/>ſons being admitted, every Pariſh is bound to allow 100 <hi>l. per annum,</hi> at the leaſt, <hi>Pot-Royal</hi> 200 <hi>l.</hi> St. <hi>Jago</hi> 130 <hi>l.</hi> by Act of the Aſſembly made in Sir <hi>Thomas Linch</hi> his time, when only theſe Pariſhes above-named were ſupply'd.</p>
+                  <p>The Governours Reſidence was at St. <hi>Jago,</hi> more within the Land, and eaſier for People to apply them<g ref="char:EOLhyphen"/>ſelves to him; he named or appoint<g ref="char:EOLhyphen"/>ed all the Officers, only ſuch as the King made under the Great Seal of <hi>England,</hi> as the Secretary of the Iſland, that makes all the publique Diſpatches, keeps the Office of In<g ref="char:EOLhyphen"/>rollment.
+<pb n="48" facs="tcp:52464:30"/> And the Marſhal, who is the Executive Officer of Juſtice, in the nature of a Sheriff, Uſher of the Black-Rod, and Jaylor, for the Ad<g ref="char:EOLhyphen"/>miniſtration of Juſtice, and better Government of the Pariſhes. There is Seſſions of the Juſtices Quarterly held at <hi>Morant, Liguania, Port-Royal,</hi> St. <hi>Jago,</hi> St. <hi>John Clarendon,</hi> St. <hi>Eliza<g ref="char:EOLhyphen"/>beth;</hi> every of theſe Precincts have a particular <hi>Cuſtos Rotulorum</hi> appointed, who with the Juſtices and other Of<g ref="char:EOLhyphen"/>ficers Preſent, Reform, Examine and puniſh all Crimes, Diſorders and Misdemeanors that are within their Cognizance by the Laws of <hi>England,</hi> or thoſe of the Iſland. All <hi>Pleas of the Crown</hi> and <hi>Civil Cauſes,</hi> are heard and Determined in the Grand Court that Sits Quarterly at St. <hi>Jago,</hi> and thither <hi>Errours</hi> and <hi>Cauſes</hi> are brought from the Inferiour Courts, this be<g ref="char:EOLhyphen"/>ing like the <hi>Kings-Bench, Court of Exchequer</hi> and <hi>Aſſizes</hi> in <hi>England.</hi> In ſome extraordinary Caſes the Go<g ref="char:EOLhyphen"/>vernour
+<pb n="49" facs="tcp:52464:30"/> Grants Commiſſions of <hi>Oyer</hi> and <hi>Terminer.</hi> The Governour is Chancellor and Keeper of the Great Seal of the Iſland; which the King ſent by Sir <hi>Charles Littleton</hi> to my Lord <hi>Windſor.</hi> It's a Croſs charged with four Pines, the Reverſe his Majeſty in his Throne, an Indian kneeling and preſenting him. All publique Commiſſions and Grants are ſeal'd with this Seal. To every Planter the Governour Grants Thir<g ref="char:EOLhyphen"/>ty Acres <hi>per</hi> Head, for which he gives his Warrant, then the Survey<g ref="char:EOLhyphen"/>or of the Precinct within which it lies, runs it out, and returns it to the Clerk of the Pattents, which draws the Grant; ſo 'tis held of the King in Common, and pays for what Sir <hi>Thomas Modyford</hi> Granted 25 <hi>s. per</hi> 1000. for what Sir <hi>Thomas Linch</hi> Granted a half penny <hi>per</hi> Acre.</p>
+                  <p>By an Act of the Aſſembly an Of<g ref="char:EOLhyphen"/>fice of Inrollment is Erected, and kept by the Secretary, where the
+<pb n="50" facs="tcp:52464:31"/> Pattent and all Deeds and private Writings are Recorded to prevent Law-ſuits and fraudulent Convey<g ref="char:EOLhyphen"/>ances, and is in the nature of a Re<g ref="char:EOLhyphen"/>giſtry. All Actions at Law between Neighbours, are tryed in the Inferi<g ref="char:EOLhyphen"/>our Courts, which are in the nature of Court Barons here. There's one at <hi>Morant, Liguania, Port-Royal,</hi> St. <hi>Johns, Clarendon,</hi> St. <hi>Elizabeth,</hi> and the North ſide; each Court has its Judge, 12 Aſſiſtants, Clerk, Mar<g ref="char:EOLhyphen"/>ſhal; and any perſon may plead his own Cauſe. They hold Pleas of any ſum under 20 <hi>l.</hi> and of greater ſums, when they take a <hi>Juſticias</hi> out of the Chancery, which the Gover<g ref="char:EOLhyphen"/>nour grants of courſe; and here all Appeals, with the aſſiſtance of ſome of the Councel that ſit as the Pro<g ref="char:EOLhyphen"/>bate of Wills, Licences for Marri<g ref="char:EOLhyphen"/>ages, <hi>&amp;c.</hi> are diſpatch'd in the Se<g ref="char:EOLhyphen"/>cretarys Office; and the Governour ſeems to be in the nature of Judge of the Prerogative Court.</p>
+                  <pb n="51" facs="tcp:52464:31"/>
+                  <p>At <hi>Port-Royal</hi> is eſtabliſht a Na<g ref="char:EOLhyphen"/>val Office that takes care of the En<g ref="char:EOLhyphen"/>trys, diſpatches of Veſſels, and the obſervance of their Acts of Navi<g ref="char:EOLhyphen"/>gation.</p>
+                  <p>The Governour is Vice Admiral to his Royal Highneſs, and has a Com<g ref="char:EOLhyphen"/>miſſion to Command all his Maje<g ref="char:EOLhyphen"/>ſties Ships that come to the Iſland; and likewiſe a large Commiſſion to Erect Courts of Admiralty, and ex<g ref="char:EOLhyphen"/>erciſe all thoſe Maratime powers his Royal Highneſs hath; ſo there's at <hi>Port-Royal</hi> a Judge-Admiral, with all the needful Officers that proceed in the Court according to the forms of Admiralty uſed here and in other parts.</p>
+                  <p>The Militia is Commanded by the Governour, according to the power he Reigns from His Majeſty and the Laws of the Country, for there's a particular Act that appoints the time of Muſtering the Perſons, the Arms, aad the Places of Rendezvous.
+<pb n="52" facs="tcp:52464:32"/> Here's no Souldiers paid by the King; all the Officers are made by the Go<g ref="char:EOLhyphen"/>vernour. At St. <hi>Thomas</hi> and St. <hi>Da<g ref="char:EOLhyphen"/>vids</hi> is one Regiment, another at St. <hi>Andrews, Port-Royal,</hi> St. <hi>Catherines,</hi> St. <hi>Johns, Clarendon,</hi> St. <hi>Elizabeth,</hi> and North ſide: and in every one of theſe Regiments is one Troop of Horſe; the Company and Troop that is at St. <hi>Jago</hi> wait on the Gene<g ref="char:EOLhyphen"/>ral as his Guards on <hi>Sundays</hi> to Church; and on any other occaſion the Regiment at <hi>Port-Royal</hi> keep the Fort there by half a Company at a time. All the Militia here is much more obedient, uſeful, better Diſ<g ref="char:EOLhyphen"/>ciplin'd and Arm'd than in <hi>Eng<g ref="char:EOLhyphen"/>land.</hi>
+                  </p>
+                  <p>The Revenue of this Iſland con<g ref="char:EOLhyphen"/>ſiſts in what is properly the Kings, as Quit-Rents, Fines, Forfeitures, Eſcheats, Seizures that are Collected by His Majeſties Officer, and ac<g ref="char:EOLhyphen"/>comptable to his Order, and a Re<g ref="char:EOLhyphen"/>venue paid by the Aſſembly by an
+<pb n="53" facs="tcp:52464:32"/> Impoſt on Strong Liquors Imported, and a Tax for Licences for Ale-houſes; the Licences are received by the Secretary, and the Impoſt by ſuch Collectors the Governour and Councel name and appoint; theſe, and all that receive any of the Kings or Publique Money, give an account thereof to a Treaſurer, who Iſſues it out according to the Governours Order, of which he gives him and the Councel an ac<g ref="char:EOLhyphen"/>count once every ſix Months, and keeps fair and open Books to ſhew the Aſſembly, or any that deſire to inſpect them, that every body may ſee the Money not miſapply'd, or ill managed, that they may be encourag'd thereby to raiſe more when needful. In Sir <hi>Thomas Linch</hi> his time, all the Kings and Countrys Dues did not amount to 3000 <hi>l. per Annum,</hi> which was not near ſuf<g ref="char:EOLhyphen"/>ficient to pay the Governour and Officers Sallarys, and maintain the
+<pb n="54" facs="tcp:52464:33"/> Forts, and defray other contingent Charges.</p>
+                  <p>This was the manner of Govern<g ref="char:EOLhyphen"/>ment and State of the Iſland of <hi>Jamaica,</hi> when Sir <hi>Thomas Linch</hi> was remanded thence in 1675.</p>
+               </div>
+            </body>
+         </text>
+         <text xml:lang="eng">
+            <front>
+               <div type="title_page">
+                  <pb facs="tcp:52464:33"/>
+                  <p>Sir <hi>Henry Morgan</hi>'s VOYAGE TO Panama, 1670.</p>
+                  <p>
+                     <hi>LONDON,</hi> Printed for <hi>Thomas Malthus</hi> at the <hi>Sun</hi> in the <hi>Poultry,</hi> 1683.</p>
+               </div>
+            </front>
+            <body>
+               <div type="text">
+                  <pb facs="tcp:52464:34"/>
+                  <pb n="57" facs="tcp:52464:34"/>
+                  <head>Sir <hi>Henry Morgans</hi> Voy<g ref="char:EOLhyphen"/>age to <hi>Panama,</hi> 1670.</head>
+                  <div type="account">
+                     <opener>
+                        <dateline>At a Council held at St. <hi>Jago Delave<g ref="char:EOLhyphen"/>ga</hi>
+                           <date>the 29th day of <hi>June, 1670.</hi> by Adjournment; <hi>Preſent,</hi>
+                           </date>
+                        </dateline>
+                     </opener>
+                     <list>
+                        <item>His Excellency Sir <hi>Tho. Modyford</hi> Baronet, Governour,</item>
+                        <item>Lieutenant General <hi>James Modyford,</hi>
+                        </item>
+                        <item>Major General <hi>Thomas Modyford,</hi>
+                        </item>
+                        <item>Lieutenant Collonel <hi>Thomas Ballard,</hi>
+                        </item>
+                        <item>Lieutenant Collonel <hi>John Cope,</hi>
+                        </item>
+                        <item>Lieutenant Collonel <hi>Richard Hope,</hi>
+                        </item>
+                        <item>Lieutenant Collonel <hi>Robert Bindles,</hi>
+                        </item>
+                        <item>Lieutenant Collonel <hi>William Ivy,</hi>
+                        </item>
+                        <item>Major <hi>Thomas Fuller,</hi>
+                        </item>
+                        <item>Major <hi>Anthony Collier.</hi>
+                        </item>
+                     </list>
+                     <p>WHereas it evidently appeared to this Board, by a Copy of a Commiſſion ſent his Excellency by the
+<pb n="58" facs="tcp:52464:35"/> Honourable <hi>William Berk,</hi> Governor of <hi>Quariza,</hi> that the Queen Regent of <hi>Spain</hi> did by her <hi>Shadula,</hi> dated at <hi>Madrid</hi> the 20th of <hi>April 1669.</hi> Com<g ref="char:EOLhyphen"/>manded her reſpective Governours in the <hi>Indies,</hi> to make open War againſt the Subjects of our Soveraign Lord the King in theſe Parts; and alſo that the Governour of St. <hi>Jago,</hi> of <hi>Cuba,</hi> hath executed the ſame by granting Commiſ<g ref="char:EOLhyphen"/>ſions of War againſt us; and lately in a moſt Hoſtile manner Landed his Men in three ſeveral places on the North ſide of this Iſland, marching as far as he durſt into the Country, burning all the Houſes they came at, killing and taking Priſoners all the Inhabitants they could meet with, and now lately they ap<g ref="char:EOLhyphen"/>peared with three Ships on the South ſide of this Iſland at <hi>Michaels-hole,</hi> within eight Leagues of our chief Har<g ref="char:EOLhyphen"/>bour, and came near the Shore full of Men; but finding the Inhabitants pre<g ref="char:EOLhyphen"/>pared for them, went out again; and the next day Landed at <hi>Paratee-Bay,
+<pb n="59" facs="tcp:52464:35"/> 18</hi> Leagues to Lee-ward, and there burnt two Houſes; and that divers of the reſt of the <hi>Spaniſh</hi> Governours have alſo granted Commiſſions, and are le<g ref="char:EOLhyphen"/>vying of Forces againſt us, and have, as we are credibly informed, made <hi>St. Jago</hi> of <hi>Cuba</hi> their preſent Magazine and their Rendezvous, where their pre<g ref="char:EOLhyphen"/>ſent Forces are to unite and embody, for the ſpeedy Invaſion of this Iſland; which intention, if it be ſuffered to ripen ſo far, as that the Enemy be ena<g ref="char:EOLhyphen"/>bled to Land their Forces in this Iſland, we ſhall be inforced to quit the preſent care of our Plantations, and attend on the Enemies motion, where<g ref="char:EOLhyphen"/>by our ſaid Plantation will run to ruin, our Cattle and other Stock run wild, our Slaves take the Woods; and although by chance of War Conquers, put to be<g ref="char:EOLhyphen"/>gin the World again, to our inſupporta<g ref="char:EOLhyphen"/>ble loſs, and moſt infinite damage to his Majeſties Service.</p>
+                     <p>And whereas His Majeſty hath out of his moſt Princely fore-ſight and
+<pb n="60" facs="tcp:52464:36"/> great care of us, directed in his laſt Article of Royal Inſtructions, which his Excellency hath been pleaſed on this extraordinary occaſion to communicate to this Board in theſe words:</p>
+                     <p>As, foraſmuch as there are many things incident to that Government there, for which it is not eaſie for us to preſcribe ſuch Rules and Directions for you as our ſervice, and the benefit of that Iſland may require, inſtead of them you are with the Advice of the Council, to take care therein as fully and effectually as if you were inſtructed by us, of which extraordinary cauſes giving us due in<g ref="char:EOLhyphen"/>formation, you ſhall receive farther ſa<g ref="char:EOLhyphen"/>tisfaction from us as our Service ſhall require; In diſcharge therefore of that great truſt which is by that Inſtruction put in us by His Majeſties Council of this Place, and in this great and ur<g ref="char:EOLhyphen"/>gent, neceſſity, we humbly adviſe and pray your Excellency, for the ſeaſona<g ref="char:EOLhyphen"/>ble prevention of theſe impending Evils. It may Ordain, and be it ſo Ordained
+<pb n="61" facs="tcp:52464:36"/> by his Excellency, and His Majeſties Ciuncil now Aſſembled, and by Autho<g ref="char:EOLhyphen"/>rity of the ſame, That Commiſſion be granted to Admiral <hi>Henry Morgan,</hi> to be Admiral and Commander in Chief of all the Ships of War belonging to this Harbour, and of all the Officers, Souldiers and Seamen belonging to the ſame, requiring him with all poſſible ſpeed to draw into one Fleet, and with them to put to Sea for the ſecurity of the Coaſt of this Iſland, and of the Mer<g ref="char:EOLhyphen"/>chants Ships, and other Veſſels Trading to and about the ſame. And to Attain, Seiz and Deſtroy all the Enemies Veſ<g ref="char:EOLhyphen"/>ſels that ſhall come within his reach; and alſo for deſtroying the Stores, Ma<g ref="char:EOLhyphen"/>gazines laid up for this War, and diſ<g ref="char:EOLhyphen"/>poſing ſuch Forces as are or may be brought together for proſecuting the ſame. That he have power to Land in the Enemies Country as many of his Men as he ſhall judge needful; and with them to March to ſuch places as he ſhall be informed the ſaid Magazines or
+<pb n="62" facs="tcp:52464:37"/> Forces are, and them accordingly take deſtroy, and diſpoſe of; and to do and perform all manner of Exploits which may tend to the preſervation and quiet of this Iſland, being His Majeſties chief Intereſt in the <hi>Indies.</hi> And that for the better Government of the ſaid Fleet, Officers, Souldiers and Seamen, he have power to execute Marſhal Law, according to the Article of War already made, or which hereafter ſhall be made by his Excellency, the ſame having been firſt publiſhed unto them. And it is further Ordained, in regard there is no other pay for the encouragement of the ſaid Fleet, That they ſhall have all the Goods and Merchandiſes that ſhall be gotten in this Expedition, to be di<g ref="char:EOLhyphen"/>vided amongſt them, according to their uſual Rules; and for their better en<g ref="char:EOLhyphen"/>couragement to engage in this ſo neceſſa<g ref="char:EOLhyphen"/>ry a Service. It is further Ordained, by the Authority aforeſaid, That no perſon already belonging to the ſaid Fleet ſhall be moleſted for his Debts,
+<pb n="63" facs="tcp:52464:37"/> but are hereby protected until furthe Order, of which the Provoſt Marſhal is to take notice of at his peril.</p>
+                     <closer>
+                        <signed>
+                           <hi>C. Atkinſon,</hi> Cl. C.</signed>
+                     </closer>
+                  </div>
+                  <div type="letter">
+                     <opener>
+                        <signed>Sir <hi>Thomas Modyford</hi> Baronet, Go<g ref="char:EOLhyphen"/>vernour of His Majeſties Iſland of <hi>Jamaica,</hi> Commander in Chief of all His Majeſties Forces within the ſaid Iſland, and in the Iſlands there<g ref="char:EOLhyphen"/>unto Adjacent, Vice Admiral to his Royal Highneſs <hi>James</hi> Duke of <hi>York,</hi> in the <hi>American Seas.</hi>
+                        </signed>
+                        <salute>To Admiral <hi>Henry Morgan</hi> Eſq; Greeting:</salute>
+                     </opener>
+                     <p>WHereas the Queen Regent of <hi>Spain,</hi> hath by her Royal <hi>Shadula,</hi> dated at <hi>Madrid</hi> the 20th of <hi>Apr.</hi> 1670. Commanded her reſpe<g ref="char:EOLhyphen"/>ctive Governours in the <hi>Indies,</hi> to publiſh and make open Wars againſt
+<pb n="64" facs="tcp:52464:38"/> our Soveraign Lord the King in theſe Parts. And whereas the Col. <hi>Pedro Baijonaii billa uneba</hi> Captain General of the Province of <hi>Paragnay,</hi> and Governour of the City of St. <hi>Jago de Cuba,</hi> and its Province, hath exe<g ref="char:EOLhyphen"/>cuted the ſame, and lately in a moſt Hoſtile and barbarous manner land<g ref="char:EOLhyphen"/>ed his men on the North ſide of this Iſland, and entred a ſmall way into the Country, firing all the Houſes they came at, killing or taking Priſoners all the Inhabitants they could meet with; and whereas the reſt of the Governours in theſe Parts, have granted Commiſſions for executing the like Hoſtility againſt us, and are diligently gather<g ref="char:EOLhyphen"/>ing Forces together to be ſent to St. <hi>Jago</hi> of <hi>Cuba,</hi> their General Rendez<g ref="char:EOLhyphen"/>vous and place of Magazine; and from thence as the moſt opportune place, to be tranſported for a thro Invaſion and final Conqueſt (as they hope) of this Iſland, for preventi<g ref="char:EOLhyphen"/>on
+<pb n="65" facs="tcp:52464:38"/> of which their miſchievous In<g ref="char:EOLhyphen"/>tentions, in diſcharge of that great truſt which His Gracious Majeſty hath placed in me, I do by vertue of full Power and Authority in ſuch Caſes from his moſt Excellent Maje<g ref="char:EOLhyphen"/>ſty, and his Royal Highneſs <hi>James</hi> Duke of <hi>York,</hi> His Majeſties Lord High Admiral, derived unto me, and out of the great confidence I have in the good conduct, courage and fidelity of you the ſaid <hi>Henry Mor<g ref="char:EOLhyphen"/>gan,</hi> as alſo of your great Experi<g ref="char:EOLhyphen"/>ence you have in Marſhal Affairs, both by Land and Sea, and by the advice and conſent of His Majeſties Council, conſtitute and appoint you the ſaid <hi>Henry Morgan</hi> to be Admi<g ref="char:EOLhyphen"/>ral and Commander in Chief of all the Ships, Barques and other Veſſels now fitted, or hereafter ſhall be fit<g ref="char:EOLhyphen"/>ted for the publick Service and de<g ref="char:EOLhyphen"/>fence of this Iſland, and alſo of the Officers, Souldiers and Seamen, which are or ſhall be put upon the
+<pb n="66" facs="tcp:52464:39"/> ſame, requiring you to uſe your beſt endeavours, to get with the Veſſels into one Body or Fleet, and cauſe them to be well Man'd, fitted, arm'd and victualled, and by the firſt op<g ref="char:EOLhyphen"/>portunity, wind and weather, per<g ref="char:EOLhyphen"/>mitting to put to Sea for the Guard and Defence of the Coaſt of this Iſland, and of all Veſſels trading to or about the ſame; and in order thereunto, to uſe your beſt endea<g ref="char:EOLhyphen"/>vours to ſurprize, take, ſink, diſ<g ref="char:EOLhyphen"/>perſe and deſtroy all the Enemies Ships or Veſſels, which ſhall come within your view; and alſo for pre<g ref="char:EOLhyphen"/>venting the intended Invaſion againſt this place. You are hereby further Authorized and required, in caſe you and yout Officers in your Judg<g ref="char:EOLhyphen"/>ment find it poſſible or feazable to Land, and attain the ſaid Town of St. <hi>Jago de Cuba,</hi> or any other place belonging to the Enemies, where you ſhall be informed the Magazine and Stores for this War are laid up
+<pb n="76" facs="tcp:52464:39"/> or where any Rendezvous for their Forces to Imbody, are appointed, and there to uſe your beſt endea<g ref="char:EOLhyphen"/>vour for the Seizing the ſaid Stores, and to take, kill and diſperſe the ſaid Forces. And all Officers, Soul<g ref="char:EOLhyphen"/>diers and Seamen, which are or ſhall be belonging to or Embarque upon the ſaid Veſſels, are hereby ſtrictly enjoyned both by Sea and Land, to obey you as their Admiral and Com<g ref="char:EOLhyphen"/>mander in Chief in all things as be<g ref="char:EOLhyphen"/>cometh them; and you your ſelf are to obſerve and follow all ſuch Orders as you ſhall from time to time receive from His moſt Excel<g ref="char:EOLhyphen"/>lent Majeſty, his Royal Highneſs, or my ſelf.</p>
+                     <closer>
+                        <dateline>Given under my Hand and Seal of Arms <date>this 22d of <hi>July,</hi> and in the 22d year of our Soveragin Lord King <hi>Charles</hi> the Second, <hi>Anno Dom.</hi> 1670.</date>
+                        </dateline> 
+                        <signed>By Command of his Excellency <hi>Thomas Modyford.</hi> 
+                        </signed>
+                     </closer>
+                  </div>
+                  <div type="instructions">
+                     <pb n="69" facs="tcp:52464:40"/>
+                     <byline>
+                        <hi>Cary Helier,</hi> Regiſt. of the Admiralty.</byline>
+                     <head>Inſtructions for Admiral <hi>Henry Mor<g ref="char:EOLhyphen"/>gan</hi> Eſq; delivered him <date>the 2d of <hi>July 1670.</hi>
+                        </date> together with his Com<g ref="char:EOLhyphen"/>miſſion.</head>
+                     <p n="1">1. YOU will with theſe Inſtructi<g ref="char:EOLhyphen"/>ons receive my Commiſſion, which you are enjoyned with all Expedition to publiſh and put in due Execution, according to the full ex<g ref="char:EOLhyphen"/>tent and import of the ſame, for the accompliſhing whereof, you ſhall have all the aſſiſtance this Iſland can give you.</p>
+                     <p n="2">2. You are to make known unto me what ſtrength you can poſſible make, what your want may be that on a due Calculation of both, we may ſupply you with all poſſible ſpeed.</p>
+                     <p n="3">3. You are to take notice and ad<g ref="char:EOLhyphen"/>viſe your Fleet and Souldiers that you are upon the old pleaſing Ac<g ref="char:EOLhyphen"/>count of no purchaſe no pay, and
+<pb n="86" facs="tcp:52464:40"/> therefore that all which is got, ſhall be divided amongſt them according to accuſtomed Rules.</p>
+                     <p n="4">4. In caſe you ſhall find it pru<g ref="char:EOLhyphen"/>dential, as by your Commiſſion you are directed to attain St. <hi>Jago</hi> of <hi>Cuba,</hi> and that God bleſſing you with Victory, you are hereby di<g ref="char:EOLhyphen"/>rected, in caſe you do it without any conſiderable hazards, to keep and make good the place and Country thereabout. until you have adviſed me of our ſucceſs, and received my farther Orders touching the ſame, leſt your ſudden quitting, and their as ſudden returning beget us new work, and put us on new charges and hazards for the ſecond defeating.</p>
+                     <p n="5">5. In order to this you are to pro<g ref="char:EOLhyphen"/>claim mercy and enjoyment of Eſtates and liberty of Cuſtoms to all the <hi>Spaniards,</hi> that will ſubmit and give aſſurance of his Loyalty to His Majeſty, and Liberty to all the Slaves that will come in; and to ſuch
+<pb n="71" facs="tcp:52464:41"/> as by any good ſervice may deſerve the ſame, you are to give notice to their fugitive Maſters Plantations to be divided amongſt them as rewards for the ſame, &amp; make them ſufficient Grants in Writing, both for their Li<g ref="char:EOLhyphen"/>berties and Eſtates, reſerving to the Crown of <hi>England</hi> the fourth part of the produce to be yearly paid for the yearly maintenance of ſuch Forces as ſhall defend theſe parts.</p>
+                     <p n="6">6. In caſe you find that courſe to take approveable effect, you are then as much as will ſtand with the ſame to preſerve the Houſes, Sugar-works and Canes; but if otherwiſe it ap<g ref="char:EOLhyphen"/>pear to you, that in reaſon you can<g ref="char:EOLhyphen"/>not make good the place for any long time, and that the <hi>Spaniards</hi> and Slaves are deaf to your Propo<g ref="char:EOLhyphen"/>ſals, you are then with all Expedi<g ref="char:EOLhyphen"/>tion, to deſtroy or burn all Habita<g ref="char:EOLhyphen"/>tions, and leave it as a Wilderneſs putting the Men-Slaves to the Sword, and making the Women-ſlaves Pri<g ref="char:EOLhyphen"/>ſoners
+<pb n="70" facs="tcp:52464:41"/> to be brought hither, and ſold for account of your Fleet and Army, ſuch of the men alſo that can<g ref="char:EOLhyphen"/>not ſpeak <hi>Spaniſh.</hi> Or any new Ne<g ref="char:EOLhyphen"/>gro, you may preſerve for the ſame account; or if any Ships preſent, to carry them for <hi>New-England</hi> or <hi>Vir<g ref="char:EOLhyphen"/>ginia,</hi> you may ſend them all on the ſame Account.</p>
+                     <p n="7">7. You are to enquire what uſage our Priſoners have had, and what Quarter hath been given by the Ene<g ref="char:EOLhyphen"/>my to ſuch of ours as have faln un<g ref="char:EOLhyphen"/>der their power, and being well in<g ref="char:EOLhyphen"/>formed, you are to give the ſame, or rather as our cuſtom is, to exceed in Civility and Humanity, endea<g ref="char:EOLhyphen"/>vouring by all means to make all ſorts of People ſenſible of your Mo<g ref="char:EOLhyphen"/>deration and good Nature, and your in a pritude and loathneſs to ſpill the blood of man.</p>
+                     <p n="8">8. You have hereby power to execute Marſhal Law, according to ſuch Military Laws as have been
+<pb n="72" facs="tcp:52464:42"/> made by me, and the Laws made by Act of Parliament for the Govern<g ref="char:EOLhyphen"/>ment of the Fleet, which I approve of as fitting for the Service; and hereby Authorize you to put them in Execution againſt ſuch as ſhall of<g ref="char:EOLhyphen"/>fend you, having firſt publiſhed the ſaid Laws unto them, that none may pretend ignorance.</p>
+                     <p n="9">9. If any Ship or Ships ſhall pre<g ref="char:EOLhyphen"/>ſent, which have not any Commiſ<g ref="char:EOLhyphen"/>ſion, you are hereby impowered to grant Commiſſions to them accord<g ref="char:EOLhyphen"/>ing to the form I have uſed, taking ſecurity of 1000 <hi>l.</hi> Bond for the per<g ref="char:EOLhyphen"/>formance of the ſame.</p>
+                     <p n="10">10. What Ships in this Expediti<g ref="char:EOLhyphen"/>on you ſhall keep with you under your Command, and them order and diſpoſe for the beſt improve<g ref="char:EOLhyphen"/>ment of this Service, not ſuffering the takers or pretenders to ſell them until they come into their Commiſ<g ref="char:EOLhyphen"/>ſion Port.</p>
+                     <p n="11">
+                        <pb n="73" facs="tcp:52464:42"/>11. In regard many things may happen in this Action which cannot be by me fore-ſeen and provided for in theſe Inſtructions, therefore all ſuch Matters are left to your well known prudence and conduct, refer<g ref="char:EOLhyphen"/>ring it to you that are in the place, to do therein what ſhall be needful; thus wiſhing you good ſucceſs, and this Iſland happy thereby, I remain</p>
+                     <closer>
+                        <dateline>St. <hi>Jag. Delav.</hi>
+                           <date>2 <hi>July</hi> 1670.</date>
+                        </dateline>
+                        <signed>
+                           <list>
+                              <item>
+                                 <hi>Your faithful Friend and Servant,</hi> Tho. Modyford.</item>
+                              <item>By his Excel. Command. <hi>Cary Helier</hi> Reg. of the Admiralty.</item>
+                           </list>
+                        </signed>
+                     </closer>
+                  </div>
+                  <div type="account">
+                     <pb n="74" facs="tcp:52464:43"/>
+                     <head>A true Account and Relation of this laſt Expedition againſt the <hi>Spa<g ref="char:EOLhyphen"/>niard,</hi> by vertue of a Commiſſion given unto <hi>H. Morgan</hi> by his Excel Sir <hi>Tho. Modyford</hi> Governour Ge<g ref="char:EOLhyphen"/>neral of His Majeſties Iſland of <hi>Jamaica,</hi> with the advice and appro<g ref="char:EOLhyphen"/>bation of His Majeſties Honoura<g ref="char:EOLhyphen"/>ble Council fully Aſſembled; the pro<g ref="char:EOLhyphen"/>ſecution of which I humbly here pre<g ref="char:EOLhyphen"/>ſent.</head>
+                     <p>HIs Commiſſion bearing date the 22 of <hi>July</hi> 1670. the te<g ref="char:EOLhyphen"/>nour of which was to fight with, take or deſtroy all the Ships that I ſhoul<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> meet withal belonging to the ſubject of his Catholick Majeſty in the <hi>Ameri<g ref="char:EOLunhyphen"/>can</hi> Seas, as alſo to Land on the Iſlan<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> of <hi>Cuba,</hi> attempt the City of St. <hi>Jag<gap reason="illegible" resp="#MURP" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>
+                        </hi> upon the ſaid Iſland, if himſelf an<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> the Commanders find it feazible an<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> farther more to Land in any of th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Dominions of his ſaid Catholiqu<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Majeſty in <hi>America,</hi> and to attemp<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                        <pb n="75" facs="tcp:52464:43"/> take or ſurprize by force of Arms any of his ſaid Catholique Majeſties Cities, Towns, Forts, or Fortreſſes where he ſhould by any intelligences be adviſed that they were ſtoring up or making Magazines of Arms, A<g ref="char:EOLhyphen"/>munition, or Proviſions, or levying any men for the propagating or main<g ref="char:EOLhyphen"/>taining of this War againſt his Ma<g ref="char:EOLhyphen"/>jeſties Iſland of <hi>Jamaica.</hi>
+                     </p>
+                     <p>1670. In order whereunto they ſailed from <hi>Port-Royal</hi> the 14th of <hi>Auguſt,</hi> with 11 Sail of Veſſels, and 600 men, and having rounded the Iſland, we arrived at the Iſle of <hi>Aſh,</hi> the place of Rendez<g ref="char:EOLhyphen"/>vous the 2 of <hi>September</hi> following, from whence we having no Advice of the courſe of the Enemy or their deſign, we diſpatched away Vice Admiral <hi>Collier</hi> the ſixth of the ſame Month, with ſix Sail of Veſſels, and 350 men, to go for the Courſe of the <hi>Main</hi> to get Priſoners for Intel<g ref="char:EOLhyphen"/>ligence for the better ſtearing our
+<pb n="76" facs="tcp:52464:44"/> Courſe and managing our deſign, for the moſt of his Majeſties Honor and Service, and the ſafety of <hi>Ja<g ref="char:EOLhyphen"/>maica.</hi>
+                     </p>
+                     <p>The laſt of <hi>September</hi> arrived to us at the Iſle of <hi>Aſh,</hi> Capt. <hi>John Mor<g ref="char:EOLhyphen"/>ris,</hi> who brought with him <hi>Imanuel Riveras</hi> Veſſel of eight Guns, who burnt the Coaſt of <hi>Jamaica,</hi> having taken him on the Coaſt of <hi>Cuba,</hi> and in her three original Commiſſions, 2 of which they ſent his Excellency; the 7th of <hi>October</hi> following ſo vio<g ref="char:EOLhyphen"/>lent a Storm happened in the Har<g ref="char:EOLhyphen"/>bour that drove all the Fleet aſhore except the Admirals Veſſel, then conſiſting of 11 Sail; all of which, except three, were got off again and made ſerviceable.</p>
+                     <p>In this Month arrived here three <hi>French</hi> Veſſels, and conditioned to ſail under our Flag, and in <hi>Novem<g ref="char:EOLhyphen"/>ber</hi> arrived ſeven ſail more from <hi>Ja<g ref="char:EOLhyphen"/>maica.</hi> Now being of force enough to attempt St. <hi>Jago,</hi> we examined
+<pb n="77" facs="tcp:52464:44"/> ſome of our own men, who had been lately there Priſoners; and al<g ref="char:EOLhyphen"/>ſo thoſe <hi>Spaniards</hi> that were taken in <hi>Imanuel Rivers:</hi> One of our men in particular, Captain <hi>Richard Powell,</hi> Captain of the Prize that was <hi>Ri<g ref="char:EOLhyphen"/>ver</hi>'s Ship, who had not been above 30 daies from St. <hi>Jago,</hi> declared that time of year being Winter, and be<g ref="char:EOLhyphen"/>ing but one landing place, and that ſtrongly fortified, it was impoſſible for us to attempt that place without the hazard of the whole Party, and the certain loſs of the moſt, if not all our Veſſels, by foul weather; all the knowing Priſoners examined, affirming the ſame, upon which we relinquiſhed that Deſign.</p>
+                     <p>The 20th of the ſame Month Vice Admiral <hi>Collier</hi> returned from the <hi>Main</hi> with good quantities of pro<g ref="char:EOLhyphen"/>viſions, and two of the Enemies Veſ<g ref="char:EOLhyphen"/>ſels, one of which called the <hi>Galer<g ref="char:EOLhyphen"/>deene,</hi> was aſſiſtant to <hi>Riveras</hi> in the burning the Coaſt of <hi>Jamaica,</hi> and
+<pb n="78" facs="tcp:52464:45"/> in her were 38 Priſoners, who the 29th of the ſame Month were exa<g ref="char:EOLhyphen"/>mined, and what was ſaid by two of the moſt ſenſibleſt of them redue'd into <hi>Engliſh</hi> is as followeth:</p>
+                     <div type="deposition">
+                        <opener>
+                           <dateline>
+                              <date>
+                                 <hi>Nov.</hi> the 29. 1670.</date>
+                           </dateline>
+                        </opener>
+                        <p>
+                           <hi>The Depoſition of</hi> Marcus de Cu<g ref="char:EOLhyphen"/>ba, <hi>Spaniard, Maſter Pilot of the</hi> Galerdeene <hi>Prize, born at the</hi> Grand Canaries, <hi>aged 47 years or therea<g ref="char:EOLhyphen"/>bouts, being diſpoſeth ſaith,</hi>
+                        </p>
+                        <p>That he did ſee the People at <hi>Car<g ref="char:EOLhyphen"/>thagena</hi> Liſted and all in Arms of<g ref="char:EOLhyphen"/>fenſive againſt the <hi>Engliſh.</hi> And far<g ref="char:EOLhyphen"/>ther ſaith, that ſeveral <hi>Spaniſh</hi> Ships have had and now have Commiſſions from the preſident of <hi>Panama,</hi> named <hi>(Don Juan Perez de Guſman)</hi> and that they have taken ſeveral <hi>Engliſh</hi>-men, and that the laſt <hi>Spaniard</hi> have by the ſaid Preſident great incourage<g ref="char:EOLhyphen"/>ment againſt the Iſland of <hi>Jamaica,</hi> and the more by reaſon of a Fleet fitted out of old <hi>Spain</hi> for thoſe parts, under
+<pb n="79" facs="tcp:52464:45"/> the Command and Conduct of one <hi>(Don Alonſo)</hi> and further ſaith not.</p>
+                        <closer>
+                           <dateline>
+                              <hi>Sworn the day and year above written</hi> Coram.</dateline> 
+                           <signed> Henry Morgan, <hi>and the reſt of the Officers of the Fleet.</hi>
+                           </signed>
+                        </closer>
+                     </div>
+                     <div type="deposition">
+                        <opener>
+                           <dateline>
+                              <date>
+                                 <hi>Nov.</hi> 29. 1670.</date>
+                           </dateline>
+                        </opener>
+                        <p>
+                           <hi>The Depoſition, of</hi> Lucas Peroz <hi>a Seaman, born at</hi> Palma, <hi>aged 31 years or thereabouts, being diſpoſeth ſaith,</hi>
+                        </p>
+                        <p>That he did ſee the People at <hi>Car<g ref="char:EOLhyphen"/>thagena,</hi> ſome of them in Arms, others Liſting of themſelves; and two Ships ready fitted againſt <hi>Jamaica,</hi> one with <hi>18,</hi> and the other with <hi>12</hi> Guns; and alſo that the Preſident of <hi>Panama</hi> hath granted ſeveral Commiſſions againſt the <hi>Engliſh,</hi> by vertue of which, ſeveral <hi>Engliſh</hi> Ships hath been taken, and further ſaith not.</p>
+                        <closer>
+                           <dateline>
+                              <hi>Sworn the day and year above written</hi> Coram.</dateline>
+                           <signed>H. Morgan <hi>and the reſt of the Officers of the Fleet.</hi>
+                           </signed>
+                        </closer>
+                     </div>
+                     <div type="part">
+                        <gap reason="illegible: missing" extent="1 span">
+                           <desc>〈…〉</desc>
+                        </gap>
+                        <pb n="80" facs="tcp:52464:46"/>
+                        <p>Upon <hi>December</hi> the 22d Comman<g ref="char:EOLhyphen"/>ded all the Captains on board me being 37 in number, and demanded their advice what place was fitteſt to attain for His Majeſties Honour, and preſervation of <hi>Jamaica;</hi> and to put the greater curb to the Inſolencies of the Enemy; in anſwer to which they all unanimouſly agreed on <hi>Panama,</hi> as by their reſolutions under their hand in theſe words appears.</p>
+                     </div>
+                  </div>
+                  <div type="letter">
+                     <opener>
+                        <dateline>On Board the <hi>Satisfaction</hi> Frigat, <date>
+                              <hi>Dec.</hi> 2. 1670.</date>
+                        </dateline>
+                        <salute>Honoured Sir,</salute>
+                     </opener>
+                     <p>WE having ſeriouſly conſidered of what place may prove ad<g ref="char:EOLhyphen"/>vantagious for the ſafety of the <hi>Eng<g ref="char:EOLhyphen"/>liſh,</hi> and more eſpecially for the ſecuri<g ref="char:EOLhyphen"/>ty of his Majeſtys Iſland of <hi>Jamaica,</hi> to prevent the Invaſion of the <hi>Spani<g ref="char:EOLhyphen"/>ards,</hi> it being referred by the reſt of the Commanders in the Fleet in Gene<g ref="char:EOLhyphen"/>ral
+<pb n="81" facs="tcp:52464:46"/> to us whoſe Names are here under written, to pitchupon a placeth at we thought might be moſt feazible and juſt to take for the good of <hi>Jamaica,</hi> and Honour of our Nation; do all of us conclude it ſtands moſt for the good of <hi>Jamaica,</hi> and ſafety of us all to take <hi>Panama,</hi> the Preſident thereof having granted ſeveral Commiſſions againſt the <hi>Engliſh,</hi> to the great anoyance of <hi>Ja<g ref="char:EOLhyphen"/>maica</hi> and our Merchant Men, as by the Oaths of two <hi>Spaniards,</hi> have been made moſt evidently appear.</p>
+                     <closer>
+                        <signed>
+                           <hi>This is the Judgment and Reſolution of</hi>
+                           <list>
+                              <item>
+                                 <hi>Lieutenant Col.</hi> Joſeph Bradley,</item>
+                              <item>Richard Norman,</item>
+                              <item>Thomas Harriſon,</item>
+                              <item>Robert Delander,</item>
+                              <item>John Harmonſon,</item>
+                              <item>John Galoone,</item>
+                              <item>John Pyne,</item>
+                              <item>Dego Moleene,</item>
+                              <item>
+                                 <hi>Vice Admiral</hi> Ed. Collier,</item>
+                              <item>Lawrence Prince</item>
+                              <pb n="82" facs="tcp:52464:47"/>
+                              <item>John Morris,</item>
+                              <item>Thomas Rogers,</item>
+                              <item>Cha. Swan,</item>
+                              <item>Hen. Wills,</item>
+                              <item>Richard Ludbury,</item>
+                              <item>Clement Simmons.</item>
+                           </list>
+                        </signed>
+                     </closer>
+                  </div>
+                  <div type="account">
+                     <head>To <hi>Henry Morgan</hi> Eſq; Admiral and Commander in Chief of His Maje<g ref="char:EOLhyphen"/>ſties Fleet belonging to the Iſland of <hi>Jamaica,</hi> for this preſent Expe<g ref="char:EOLhyphen"/>dition.</head>
+                     <p>TO the which the Admiral con<g ref="char:EOLhyphen"/>ſented, and having called the Captains again on Board to conſult of the manner of carrying on that attempt, and whereby to find Pri<g ref="char:EOLhyphen"/>ſoners to be guides for <hi>Panama,</hi> it was voted that Providence being the Kings Antient propriety, and moſt of the people there being ſent from <hi>Panama,</hi> that no place could be more fit.</p>
+                     <pb n="83" facs="tcp:52464:47"/>
+                     <p>
+                        <hi>December</hi> the 8th we ſailed, and the 14th arrived at <hi>Providence</hi> by 8 of the Clock in the morning, and by two in the Afternoon were poſ<g ref="char:EOLhyphen"/>ſeſſed of the great Iſland without reſiſtance; the 15th, ſent a Sum<g ref="char:EOLhyphen"/>mons to the Governour to deliver the little Iſland, who willingly ſub<g ref="char:EOLhyphen"/>mitted to that he might have good Quarters, and Tranſportation to any part of the <hi>Main,</hi> which was granted and duly performed; but four of his Souldiers took up Arms with us, and became our Guides; and by them underſtanding the Caſtle of <hi>Changra</hi> blocked our way, the Admiral called a Councel of all the chief Captains, where it was determined to attain the Caſtle of <hi>Changra;</hi> and forthwith there was diſpatched 470 men in 3 Ships, under the Command of Lieu<g ref="char:EOLhyphen"/>tenant Gol. <hi>Joſeph Bradly,</hi> with 3 Captains and 4 Lieutenants, and up<g ref="char:EOLhyphen"/>on the 27th were ſafely landed with<g ref="char:EOLhyphen"/>in four Miles of the Caſtle by twelve
+<pb n="84" facs="tcp:52464:48"/> of the Clock, and by two had made their approach one of the other, and by three into Trenches where they continued fighting till eight the next Morning, and then had return<g ref="char:EOLhyphen"/>ed <hi>re infecta;</hi> if in playing of their Granadoes, they had not by good fortune ſet a Guard-houſe on fire that ſtood upon the Walls, which cauſed a breach, where our men couragiouſly ſtormed, and the Ene<g ref="char:EOLhyphen"/>my as bravely defended it to the laſt Man, refuſing Quarters, which coſt them the lives of 360 men, and of our ſide was loſt 30 out-right, one Capt. and one Lieutenant, and 76 wounded, whereof the brave <hi>Brad<g ref="char:EOLhyphen"/>ly</hi> was one, with two Lieutenants, who died within ten daies after their wounds, to the grief of himſelf and all in general.</p>
+                     <p>
+                        <hi>Jan.</hi> 2. the Adm. arrived with the whole Fleet, and underſtood that the Enemy lay with Forces to endea<g ref="char:EOLhyphen"/>vour the taking of the Caſtle, where<g ref="char:EOLhyphen"/>upon
+<pb n="85" facs="tcp:52464:48"/> he gave order for the Fleet to follow him into the Harbor, but had the ill fortune to be caſt away the Ship that he was in, and four more, but ſaved the men; the reſt being come in fell to preparing to go up the River, where they underſtood the Enemy had entrenched themſelves, and had ſix ſeveral retreating Breaſt-works upon the River.</p>
+                     <p>Whereupon the Adm. gave order that 7 Sail of leſſer Veſſels ſhould be rigged to go up the River, and filled them with Men and great Guns; and left to Guard the Caſtle and the Ships 300 men, under the Com<g ref="char:EOLhyphen"/>mand of Captain <hi>Richard Norman.</hi> Monday the 9th we began our march 1400 men in the ſaid 7 Veſſels, and 36 Boats and Cannons.</p>
+                     <p>Upon the 12th Inſtant we got to the firſt Entrenchment, where the Enemy had lately quitted it, and ſet all on Fire, as they did all the reſt, without ſtriking a ſtroke for it, and
+<pb n="86" facs="tcp:52464:49"/> there was forced to leave our Ships and Boats with 200 men to Guard them under the Gommand of Cap<g ref="char:EOLhyphen"/>tain <hi>Robert Delander,</hi> and betook our ſelves to the wild Woods, where was no path for 24 Miles, but what we cut. The 14th we arrived with<g ref="char:EOLhyphen"/>in two Miles of <hi>Venta Cruce,</hi> which was the Landing place, where was a very narrow and dangerous paſ<g ref="char:EOLhyphen"/>ſage, where the Enemy thought to put a ſtop to our further proceed<g ref="char:EOLhyphen"/>ing, but were preſently routed by the forlorn, Commanded by Cap<g ref="char:EOLhyphen"/>tain <hi>Thomas Regers;</hi> the reſt of our men never firing ſhot, and without any loſs, ſaving three men ſlightly wounded; but the Enemies loſs we could never learn. <hi>January</hi> the 15th we arrived at <hi>Venta Cruce,</hi> which is a very fine Village, and the place where they Land and Embarque all the Goods that comes and goes to <hi>Panama,</hi> where we though we might be relieved, having marched three
+<pb n="87" facs="tcp:52464:49"/> daies without Victuals, but found it as the reſt, all on Fire, and they fled.</p>
+                     <p>The 16th we began our March, the Enemy conſtantly galling us with Ambuſcades and ſmall Parties, and we ſtill beating of them for a League together, although they had all the advantage that could be of us, the way being ſo narrow that we could but march 4 a breaſt, and ſuch a deep hollow, that the Enemy lay over our heads; about noon that day we got to the <hi>Savanes</hi> ſafe, with the loſs of three men killed out<g ref="char:EOLhyphen"/>right, and ſix or ſeven wounded; and of the Enemy 20 killed, and one Captain, beſides many wound<g ref="char:EOLhyphen"/>ed, we marched three Miles further, and then took up our Quarters to refreſh our men, and thanked them for that daies ſervice. The 17th we began our March forward, but had no oppoſition, and about nine of the Clock in the Morning, ſaw that
+<pb n="88" facs="tcp:52464:50"/> deſired place the South Seas, and likewiſe a good parcel of Cattle and horſes, whereupon the G. comanded a general haſt to be made, and our men killed Horſes and Beef enough to ſerve them all; about four of the Clock in the afternoon, our men having refreſhed themſelves, we marched again, and about five the ſame day we came in ſight of the Enemy; where he lay in Batalia with 2100 Foot and 600 Horſe, but finding the day far ſpent; we thought it not fit to engage, but took up our Quarters within three Miles of them, where we lay very quiet, not being ſo much as once alarm'd. The next morning being the 18. betimes in the morning, the Gen. gave order to draw our men in Ba<g ref="char:EOLhyphen"/>talia, and it was accordingly per<g ref="char:EOLhyphen"/>formed, and they were drawn in the form of a <hi>Tertia;</hi> the Vant Guard was led by Lieutenant Col. <hi>Lawrence Prince,</hi> and Major <hi>John Morris,</hi> they
+<pb n="89" facs="tcp:52464:50"/> being in number 300 men, the bo<g ref="char:EOLhyphen"/>dy containing 600; the Right wing was led by the Gen. and the left by Col. <hi>Ed. Collier,</hi> the rear-ward of the 300 was Commanded by Col. <hi>Bledry Morgan;</hi> after having viewed our men, and a little encouraged them, the G. commanded the Officers eve<g ref="char:EOLhyphen"/>ry man ſhould repair to his Charge, the Enemy being drawn at ſuch ad<g ref="char:EOLhyphen"/>vantage, they ſtill kept their Stati<g ref="char:EOLhyphen"/>on; although often provoked, yet would not ſtir from their Ground, which we preſently perceived, and gave order that our men ſhould wheel their bodies to the left, and endeavour to gain a Hill that was hard by, which, if gained, we ſhould have forc'd the Enemy to fight to their diſadvantage, by rea<g ref="char:EOLhyphen"/>ſon he could not bring out of his great body more men to fight at a time, than we could out of our ſmall body, and likewiſe that we ſhould have the advantage both of Wind
+<pb n="90" facs="tcp:52464:51"/> and Sun. The Officers putting this Command in execution, and the Hill, and a dry Gut accordingly gained, the Enemy was forced to fight upon, their long March having not room to wheel his Battel, by reaſon of a Bogg that was drawn behind on purpoſe (as he thought) to entrap us, but we taking another ground, in the end proved a ſnare to himſelf, whereupon one <hi>Franciſco Detarro,</hi> gave the Charge with his Horſe upon the Vant Guard, and ſo furiouſly that he came upon the full ſpeed, we having no Pikes, gave or<g ref="char:EOLhyphen"/>der that they ſhould double their Ranks to the Right, and cloſe their Files to the Right and Left inward to their cloſe order, but his career could not be ſtopt till he loſt his life in the front Rank of our Vant-Guard, upon which the Horſe wheel off to the Right, and their Foot ad<g ref="char:EOLhyphen"/>vanced to try their Fortunes, but it proved like their fellows, for we be<g ref="char:EOLhyphen"/>ing
+<pb n="91" facs="tcp:52464:51"/> ready with the main Battel to re<g ref="char:EOLhyphen"/>ceive them, gave them ſuch a warm welcom, and purſued ſo cloſe that every one thought it beſt to retreat, but they were ſo cloſely plyed by our left Wing, who could not come to Engage at firſt, by reaſon of the Hill, that the Enemies retreat came to plain running. Although they did work ſuch a Stratagem that hath been ſeldom or never heard of, that is when the Foot Engaged in the Flank, he attempted to drive two Droves of Cattel of 1500 apiece in<g ref="char:EOLhyphen"/>to the Right and Left Angles of the Reer, but all came to one effect, and helped nothing for their flight to the City, where they had 200 freſh men, and two Forts, one with ſix Braſs Guns, the other with eight, and the Streets Barricadoed, and great Guns in every Street, which in all amounted to 32 braſs Guns, but inſtead of fighting he command<g ref="char:EOLhyphen"/>ed the City to be fired, and his chief
+<pb n="92" facs="tcp:52464:52"/> Forts to be blown up, the which was in ſuch haſt that he blew up forty of his Souldiers in it, we followed into the Town, where, in the Mar<g ref="char:EOLhyphen"/>ket-place they made ſome reſiſtance, and fired ſome great Guns, killed us four men, and wounded five. At three of the Clock in the after<g ref="char:EOLhyphen"/>noon we had quiet poſſeſſion of the City although on fire, with no more loſs on our ſide in this daies work than five men killed, and ten wound<g ref="char:EOLhyphen"/>ed. And of the Enemy about 400 where we were all forced to put the fire out of the Enemies Houſes; but it was in vain, for by 12 at night it was all conſumed that might be cal<g ref="char:EOLhyphen"/>led the City; but of the Subburbs, there was ſaved 2 Churches, and about 300 Houſes; thus was con<g ref="char:EOLhyphen"/>ſumed that famous and antient City <hi>Panama,</hi> which is the greateſt Mart for Silver and Gold in the whole World, for it receives all the Goods into it that comes from old <hi>Spain</hi> in
+<pb n="93" facs="tcp:52464:52"/> the King's great Fleet, and likewiſe delivers to the Fleet all the Silver and Gold that comes from the Mines of <hi>Peru</hi> and <hi>Potazi.</hi> Here in this City we ſtayed 28 daies, making daily Incurſions upon the Enemy by Land for 20 Miles round about, without having ſo much as one Gun ſhot at us in anger, although we took in this time near 3000 Priſo<g ref="char:EOLhyphen"/>ners of all ſorts, and kept likewiſe Barques in the South Seas, cruſing and fetching of Priſoners that had fled to the Iſlands with their Goods and Families.</p>
+                     <p>
+                        <hi>Feb.</hi> 14. we began our March to<g ref="char:EOLhyphen"/>wards our Ships, with all our Priſo<g ref="char:EOLhyphen"/>ners; and the next day came to <hi>Ven<g ref="char:EOLhyphen"/>ta Cruce</hi> about 2 in the afternoon, which is from <hi>Panama</hi> five <hi>Engliſh</hi> Leagues, where we ſtayed refreſhing our ſelves till the 24th. the 26th we came to <hi>Changra,</hi> where the Plunder was divided amongſt the Souldiers and Seamen, which amounted to
+<pb n="94" facs="tcp:52464:53"/> about 30000 <hi>l.</hi> The ſixth of <hi>March</hi> we fired the Caſtle, ſpiked the Guns, and began our Voyage for <hi>Jamaica,</hi> where ſome are arrived, and the reſt daily expected. The reaſon that there was no more Wealth, was be<g ref="char:EOLhyphen"/>cauſe they had two Months notice of us, and had Embarqued moſt of their Treaſure into Ships, and ſent them to <hi>Lima</hi> in <hi>Peru;</hi> one Ship w<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>s laden with Gold, Silver and pre<g ref="char:EOLhyphen"/>cious Stones, that contained 700 Tuns, and one of 300 Tuns.</p>
+                     <closer>
+                        <dateline>
+                           <date>
+                              <hi>Jan.</hi> 31. 1671.</date>
+                        </dateline>
+                        <signed>By Command <hi>John Peeke</hi> Secretary.</signed>
+                     </closer>
+                  </div>
+                  <div type="account">
+                     <pb n="95" facs="tcp:52464:53"/>
+                     <opener>
+                        <dateline>At a Council held at St. <hi>Jago</hi> 
+                           <date>the 31 of <hi>May</hi> 1671.</date>
+                        </dateline>
+                     </opener>
+                     <p>Preſent,
+<list>
+                           <item>His Excellency Sir <hi>Tho. Modyford</hi> Baronet, Governour,</item>
+                           <item>Lieutenant Col. <hi>John Cope,</hi>
+                           </item>
+                           <item>Lieutenant Col. <hi>Robert Brindlos,</hi>
+                           </item>
+                           <item>Lieutenant Col. <hi>William Ivy,</hi>
+                           </item>
+                           <item>Major <hi>Cha. Whitfield,</hi>
+                           </item>
+                           <item>Major <hi>Antho. Collier,</hi>
+                           </item>
+                           <item>Capt. <hi>Henry Moleſworth,</hi>
+                           </item>
+                        </list>
+                     </p>
+                     <p>Admiral <hi>Henry Morgan</hi> gave the Governour and Council a Relation of a Voyage to <hi>Panama,</hi> who gave him many thanks for the Execution of his late Commiſſion, and ap<g ref="char:EOLhyphen"/>proved very well of his acting.</p>
+                     <div type="deposition">
+                        <opener>
+                           <signed>
+                              <hi>This is a true Copy of the Record,</hi> Cha. Atkinſon, <hi>C. C.</hi>
+                           </signed>
+                           <pb n="96" facs="tcp:52464:54"/>The Depoſition of <hi>John Peeke</hi> Gentleman, aged 30. years or there<g ref="char:EOLhyphen"/>abouts, taken before the Right Ho<g ref="char:EOLhyphen"/>nourable Sir <hi>Thomas Linch</hi> Knight, Governour of <hi>Jamaica,</hi> this 3d day of <hi>April</hi> 1682.</opener>
+                        <p>The Deponent ſaith that he was Secre<g ref="char:EOLhyphen"/>tary to Admiral <hi>Henry Morgan</hi> all the <hi>Panama</hi> Voyage, and that he wrote all his Letters, and ſaw thoſe that were ſent to the ſaid Admiral from Sir <hi>Thomas Modyford,</hi> or any other perſon in <hi>Jamaica,</hi> that he was preſent when the two <hi>Spani<g ref="char:EOLhyphen"/>ards, Marcus de Cuba,</hi> and <hi>Lu<g ref="char:EOLhyphen"/>cas Perez</hi> were ſworn on board the <hi>Satisfaction,</hi> and that upon their de<g ref="char:EOLhyphen"/>poſition, it was reſolved by the Com<g ref="char:EOLhyphen"/>manders that they would attain <hi>Pa<g ref="char:EOLhyphen"/>nama,</hi> and that Sir <hi>Thomas Mo<g ref="char:EOLhyphen"/>dyford</hi> had knowledge of the De<g ref="char:EOLhyphen"/>ſign by a Ship that was ſent on pur<g ref="char:EOLhyphen"/>poſe, and that Col. <hi>Bledry Morgn</hi>
+                           <pb n="97" facs="tcp:52464:54"/> Came to the fleet in a Sloop that de<g ref="char:EOLhyphen"/>parted from <hi>Jamaica,</hi> ten days after the arrival of the ſaid Ship, and that Sr. <hi>Thomas Mudyford</hi> in his Letter which he ſent by the Sloop gave no Countermand at all. And this deponent further ſaith, that this is a true Copy of the Journal which was delivered to the Council the <hi>13</hi> of <hi>May,</hi> for which they gave him thanks and ordered it ſhould be recorded. And this deponent further remembers that the Sloop which came to them and brought Sr. <hi>Thomas Mudyfords</hi> letter, in anſwer to theſe which were ſent upon the advice they gave of their reſolutions for <hi>Panama,</hi> arrived three days before we marched for the City, and further, this Depo<g ref="char:EOLhyphen"/>nent ſaith not.</p>
+                        <closer>
+                           <dateline>Sworn <hi>Coram</hi> 
+                              <date>this <hi>3</hi> day of <hi>April, 1672.</hi>
+                              </date>
+                           </dateline>
+                           <signed>
+                              <list>
+                                 <item>
+                                    <hi>John Peeke</hi>
+                                 </item>
+                                 <item>
+                                    <hi>Tho. Lynch.</hi>
+                                 </item>
+                              </list>
+                           </signed>
+                        </closer>
+                     </div>
+                     <pb facs="tcp:52464:55"/>
+                  </div>
+               </div>
+            </body>
+         </text>
+         <text xml:lang="eng">
+            <body>
+               <div type="account">
+                  <pb n="99" facs="tcp:52464:55"/>
+                  <head>A ſhort account of the Life of <hi>Chriſto<g ref="char:EOLhyphen"/>pher Collumb</hi> or <hi>Collumbus</hi> the firſt Doſcoverer of <hi>Jamaica.</hi>
+                  </head>
+                  <p>
+                     <hi>COllumbus</hi> was born at <hi>Cugnero,</hi> or (as ſome ſay) at <hi>Nervi,</hi> in the Territory of <hi>Genoa;</hi> he was a Mariner from a Child, and traded into <hi>Syria,</hi> and other parts of the Eaſt. After this he became a Maſter in making Sea Carts, and went to <hi>Portugal</hi> to Learn their Navigations on the Coaſt of <hi>Affrica.</hi>
+                  </p>
+                  <p>The <hi>Spaniards</hi> who Envy the Honour of the Diſcovery of the <hi>New World</hi> to a ſtranger, Report that a certain Caravel ſailing in the Ocean by a ſtrong Eaſt Wind, long con<g ref="char:EOLhyphen"/>tinuing was carryed to a Land un<g ref="char:EOLhyphen"/>know, which was not expres'd in the Mapps and Cards, it was much Longer in Returning than in Going; and arriving, had none left
+<pb n="100" facs="tcp:52464:56"/> alive but the Pilot, and three or four Marriners, the Reſt being Dead of Famine and other Extre<g ref="char:EOLhyphen"/>meties, of which alſo the Remnant periſh'd in fews days, leaving to <hi>Collumbus</hi> (then the Pilots Hoſt) their papers, and ſome grounds of this Diſcovery; the time place, Country and name of the man, is Uncertain; ſome Eſteem this pilot an <hi>Andaluzian,</hi> and that he traded at <hi>Madera</hi> when this befel; ſome a <hi>Biſcaine,</hi> and that his traffick was in <hi>England</hi> and <hi>France;</hi> and ſome a <hi>Portugal,</hi> that traded at the <hi>Mina;</hi> ſome ſay he arrived in <hi>Portugal,</hi> others at <hi>Madera,</hi> or at one of the <hi>Azores;</hi> all agree that he Died in the houſe of <hi>Chriſtopher Collumbus,</hi> it is moſt Likely at <hi>Madera.</hi> This Relation as it hath no witneſs to prove it, the whole company being dead, nor any good circumſtances, ſo the moſt look on it to be a fable and <hi>Spaniſh</hi> trick, envying a foraigner and <hi>Ita<g ref="char:EOLhyphen"/>lian</hi>
+                     <pb n="101" facs="tcp:52464:56"/> that Glory to be the firſt Finder of the <hi>Indies,</hi> and the moſt Juditi<g ref="char:EOLhyphen"/>ous and ſincere of the <hi>Spaniards</hi> themſelves eſteem but a tale, as appears by the Teſtimony of <hi>Gorſalo Fernando De Omedo</hi> in his Summary, and more fully in his General Hi<g ref="char:EOLhyphen"/>ſtory of the <hi>Indies</hi> they ſhew, and and ſo doth he which then Lived in the Court of <hi>Spain; Peter Martir</hi> another Cauſe that mov'd <hi>Collumbus</hi> to this Diſcovery and not that Pi<g ref="char:EOLhyphen"/>lots paper or Reports; for he being a Mariner uſed to Sea from his youth; and ſailing from <hi>Cales</hi> to <hi>Portugal,</hi> obſerved that at certain ſeaſons of the year the winds uſed to blow from the Weſt, which continued in that Manner a long time together, and believing that they came from ſome Coaſt beyond the Sea; he bu<g ref="char:EOLhyphen"/>ſied his mind ſo much therewith, that he Reſolved to make ſome try<g ref="char:EOLhyphen"/>al and proof thereof. When he was now forty years old he propounded
+<pb n="102" facs="tcp:52464:57"/> his purpoſe to the Senate of <hi>Genoa;</hi> undertaking if they would lend him Ships he would find a way by the Weſt, unto the Iſland of Spices, but they Rejected his propoſals as Idle fancies.</p>
+                  <p>
+                     <hi>Columbus</hi> fruſtrate of his hopes at <hi>Genoa,</hi> yet leaves not his Reſoluti<g ref="char:EOLhyphen"/>on but goeth to <hi>Portugal;</hi> and Com<g ref="char:EOLhyphen"/>municates this Matter with <hi>Alphonſus</hi> King of <hi>Portugal,</hi> but finding no Entertainment to his ſuit, he ſends his Brother <hi>Bartholomew Collumbus</hi> to King <hi>Henry</hi> the ſeventh of <hi>England</hi> to ſollicit him in the Matter, while, himſelf paſſed into <hi>Spain</hi> to Implore the Aid of the <hi>Caſtillian</hi> herein.</p>
+                  <p>
+                     <hi>Bartholomew</hi> in his Voyage to <hi>Eng<g ref="char:EOLhyphen"/>land,</hi> unfortunately fell into the hands of Pirates, which Robbed him and his company, and forced him to ſuſtain himſelf with making of Sea Cards; and having gotten ſome<g ref="char:EOLhyphen"/>what about him, preſents a Map of the World to King <hi>Henry;</hi> with his
+<pb n="103" facs="tcp:52464:57"/> Brothers offer of Diſcovery, which the King Gladly accepted and ſent for him into <hi>England.</hi> But he had ſpeed of his ſuit before in <hi>Spain,</hi> and by that King and Queen was employ'd according to his Requeſt, for com<g ref="char:EOLhyphen"/>ing from <hi>Lisbon</hi> to <hi>Pallos di Moguer;</hi> and then conferring with <hi>Martin Alonſo Pinzon,</hi> an expert Pilot, and Frier <hi>Jo. Perez</hi> a good Coſmogra<g ref="char:EOLhyphen"/>pher; he was Counſel'd to aquaint theſe with his project; the Duke <hi>De Medina Sidonia</hi> and of <hi>Medina Ce<g ref="char:EOLhyphen"/>li,</hi> which yielding him not Credit, the Frier Counſel'd him to go to Court, and wrote in his Behalf to Fryer <hi>Fernandi Di Telavera</hi> the Queens Confeſſor.</p>
+                  <p>
+                     <hi>Chriſtopher Collumbus</hi> came to the Court of <hi>Caſtile, Anno</hi> 1486. and found cold welcome to his ſuit at the hands of the King and Queen buſied with Hot Wars in <hi>Granada;</hi> whence they expel'd the <hi>Moores;</hi> and thus remain'd he in Contempt
+<pb n="104" facs="tcp:52464:58"/> as a Man meanly Cloathed, without other patron then a poor Frier, ſave that <hi>Alonſo Di quintalignia</hi> gave him his Diet, who alſo at the laſt pro<g ref="char:EOLhyphen"/>cured him Audience of the Biſhop of <hi>Toledo;</hi> by whoſe Mediation he was brought before the King and Queen; who gave him favourable Countenace and promis'd to Diſpatch him when they had ended the wars of <hi>Granada,</hi> which alſo they per<g ref="char:EOLhyphen"/>formed. Thus <hi>Collumbus</hi> is ſet forth with three <hi>Caravals</hi> at the Kings charges, who, becauſe his treaſure was then ſpent in the Wars, Borow'd 16000 Duckets of <hi>Lavis De Sanct Angelo;</hi> and on Fryday the 3 of <hi>Auguſt,</hi> in the year of our Lord 1492 in a Ship call'd the <hi>Gallega,</hi> ac<g ref="char:EOLhyphen"/>companied with the <hi>Pinta</hi> and <hi>Nin<g ref="char:EOLhyphen"/>na;</hi> in which the <hi>Pinzors</hi> Brethren went as pilots, with the Number of 120 perſons or thereabouts, ſet ſail for <hi>Gomera;</hi> one of the <hi>Canary</hi> Iſlands; and having there Refreſh'd
+<pb n="105" facs="tcp:52464:58"/> himſelf followed his Diſcovery; af<g ref="char:EOLhyphen"/>ter many Days he Incountered with an Herby Sea which looked like a green Field, ſo thick that he could ſcarce ſee the water, which not a little amazed the <hi>Spaniards</hi> and had cauſed their Return, had not the ſight of ſome Birds promis'd them Land not far of. He taught the <hi>Spaniards</hi> to obſerve the Sun and Pole in their Navigation, which till this voyage they had not uſed nor known.</p>
+                  <p>But the <hi>Spaniard</hi> after three and thirty days ſailing, Deſperate of ſucceſs, Mutined and threaten'd to caſt <hi>Collumbus</hi> into the Sea; diſ<g ref="char:EOLhyphen"/>daining much that a ſtranger a <hi>Ge<g ref="char:EOLhyphen"/>nois</hi> had ſo Abuſed them: but he pacified their Enraged fury with Mild Speeches and Gentle promiſe. On the eleventh day of <hi>October</hi> one <hi>Rodrigo De Triana</hi> eſpied and cry<g ref="char:EOLhyphen"/>ed, <hi>Land, Land,</hi> the beſt Muſick that might be, Eſpecially to <hi>Colum<g ref="char:EOLhyphen"/>bus;</hi>
+                     <pb n="106" facs="tcp:52464:59"/> who to ſatisfie the <hi>Spaniards</hi> Im<g ref="char:EOLhyphen"/>portunitie had promis'd the day be<g ref="char:EOLhyphen"/>fore, that if no Land appear'd in 3 Days he would Return. One the Night before had Deſcried fire, which Kindled in him ſome hope of great Reward at the Kings Hand when he Returned into <hi>Spain;</hi> But being herein fruſtate he Burn'd in<g ref="char:EOLhyphen"/>to ſuch a flame as that it conſumed Both Humanity and Chriſtianity in him, and in the Agony of Indigna<g ref="char:EOLhyphen"/>tion made him Leave his Country and Faith, and Revolt to the <hi>Moors,</hi> But <hi>Collumbus,</hi> how can I but Re<g ref="char:EOLhyphen"/>member, but Love, but Admire, ſweetly may thoſe Bones Reſt; Sometimes the pillars of that Tem<g ref="char:EOLhyphen"/>ple where ſo Divine a ſpirit Reſided, which neither want of former Ex<g ref="char:EOLhyphen"/>ample nor publique Diſcourage<g ref="char:EOLhyphen"/>ments of Domeſtique and forreign ſtates, not private Inſultation of proud <hi>Spaniards,</hi> nor length of time, which generally Devoureth the
+<pb n="107" facs="tcp:52464:59"/> beſt Reſolutions, nor the unequal plains of Huge unknown Seas, nor Graſſy Fields in <hi>Neptunes</hi> Lap, nor In<g ref="char:EOLhyphen"/>portunate Whiſpering, Murmuring, threatning of enraged companions could daunt. O name <hi>Collon,</hi> wor<g ref="char:EOLhyphen"/>thy to be named to the Worlds end; which to the Worlds end haſt con<g ref="char:EOLhyphen"/>ducted <hi>Collonies;</hi> or may I call thee <hi>Collumbo,</hi> for thy Dove-like ſimpli<g ref="char:EOLhyphen"/>city and patience; the true <hi>Collonna</hi> or Pillar whereon the knowledge of the new World is founded; the true <hi>Chriſtopher,</hi> which with more then Giant-like force and Fortitude, haſt Carried Chriſt his name and Religi<g ref="char:EOLhyphen"/>on through unknown Seas, to un<g ref="char:EOLhyphen"/>known Lands, which we hope &amp; pray that it may be more Refined than Popiſh Superſtition, and <hi>Spaniſh</hi> pride will yet ſuffer. Now let the Antients no Longer Mention <hi>Nep<g ref="char:EOLhyphen"/>tune, Minos, Erithras</hi> or <hi>Danaus;</hi> to all which Divers authors Diverſly Aſcribe the Invention of Navigation <hi>Miſſians, Tirrians, Trojans</hi> vail your
+<pb n="108" facs="tcp:52464:60"/> bonnets, ſtrike your Top-ſail to this <hi>Indian</hi> Admiral, that deſerveth the Top-ſail indeed, by aſpiring to the top that ſailing could Aim at in Diſcovering another World; Let <hi>Spaniard, French, England</hi> and <hi>Dutch</hi> Reſound thy name, or his name ra<g ref="char:EOLhyphen"/>ther, <hi>whoſe name who can tell,</hi> Pſal. 30.4. that would acquaint thee and the World by the news of a new World.</p>
+                  <p>But leſt we drown our ſelves in this Sea of Extaſie and Admiration, let us go on ſhore with <hi>Collumbus,</hi> in this new diſcover'd <hi>Iſland,</hi> and firſt methinks I ſee the <hi>Spaniards</hi> yeſter<g ref="char:EOLhyphen"/>day in Mutiny, now as far Diſtract<g ref="char:EOLhyphen"/>ed in Contrary paſſions, ſome gaz<g ref="char:EOLhyphen"/>ing with greedy eyes on the Deſired Land, ſome with tears of Joy not able to ſee that which the Joy of ſee<g ref="char:EOLhyphen"/>ing made them not to ſee. Others Embracing and almoſt adore<g ref="char:EOLhyphen"/>ing <hi>Collumbus,</hi> who brought them to that ſight, ſome alſo with ſecret Repining, Envying that glory
+<pb n="109" facs="tcp:52464:60"/> to a ſtranger, but biting in their biting Envy, and making ſhew of Glee and Gladneſs; all new awak<g ref="char:EOLhyphen"/>ed out of a long trance into which that ſtep-mother Ocean with Dan<g ref="char:EOLhyphen"/>ger, Death, Dread, Deſpair had Dejected them; Revived now by the ſight of their Mother Earth; from whom in unknown Arms they had been ſo long weaned and de<g ref="char:EOLhyphen"/>tained. On then they go, and fel<g ref="char:EOLhyphen"/>ling a tree, make Croſs thereof, which they there Erected, and took Poſ<g ref="char:EOLhyphen"/>ſeſſion of that <hi>new World</hi> in the name of the Catholick King; this was done on the 11 of <hi>October, Anno.</hi> 1492 In the <hi>Iſland Guana ha<g ref="char:EOLhyphen"/>ni,</hi> one of the <hi>Lucai,</hi> which <hi>Collum<g ref="char:EOLhyphen"/>bus</hi> named <hi>San Saluatore;</hi> from whence he ſailed to <hi>Baracoe</hi> a Ha<g ref="char:EOLhyphen"/>ven on the North ſide of the Iſland <hi>Cuba;</hi> when he went on Land and asked of the Inhabitants for <hi>Cipango (Japan)</hi> they underſtanding him of <hi>Cibao</hi> (where are the Richeſt
+<pb n="110" facs="tcp:52464:61"/> Mines of <hi>Hiſpaniola</hi>) ſigned him that it was in <hi>Haiti</hi> (ſo was the Iſland then Called) and ſome of them went with him thither.</p>
+                  <p>
+                     <note place="margin">Some think <hi>Collumbus</hi> did run on ground on pur<g ref="char:EOLhyphen"/>poſe that he might Leave ſome behind him.</note>What Wordly Joy is not Mix'd with ſome Diſ<g ref="char:EOLhyphen"/>aſter after their Admi<g ref="char:EOLhyphen"/>ral here ſpliteth on a Rock, but the men are ſaved by the help of the other Ships. This fell out in the North part of <hi>Panicola</hi> (ſo named by them) where they had ſight of Inhabitants, who ſeeing theſe ſtrangers Ran all away into the Mountains; one woman the <hi>Spaniards</hi> took, whom they uſed Kindly, and gave her Meat, Drink and Cloathes and ſo let her go, ſhe declaring to her people the Liberalitie of theſe new comers, eaſily perſwad<g ref="char:EOLhyphen"/>ed them to come in troops to their ſhiping thinking the <hi>Spaniards</hi> to be ſome Divine Nation ſent thither from Heaven: They had before
+<pb n="111" facs="tcp:52464:61"/> taken them for the <hi>Caribbes,</hi> which are Certain <hi>Canibals;</hi> which uſe Inhumane Huntings for Humane Game, to take men for to eat them; Children likewiſe which they geld<g ref="char:EOLhyphen"/>ed to make them more fat; and then to devour them; the women they did not eat, but uſed them for Procreation, and if they were old, for other Services. The Iſlanders had no other Defence againſt them but the Woody Hills, and ſwifteſt Heels; to which they betook them at the <hi>Spaniards</hi> arrival, thinking them (as 'tis ſaid) to be <hi>Canniballs,</hi> and ſuch have they ſince proved in effect, not leaving of three Millions of people, which here they found ſo many hundreds, and that long-ſince the Divil had forewarned them of this by Oracle, that a bearded Na<g ref="char:EOLhyphen"/>tion ſhould ſpoil their Images, and ſpill the blood of their Children, which was all verified, as may be ſeen by any that has been Conver<g ref="char:EOLhyphen"/>ſant
+<pb n="112" facs="tcp:52464:62"/> in ſuch Tracts as Treats of thoſe parts.</p>
+                  <p>
+                     <hi>Collumbus</hi> obtained leave of <hi>Gua<g ref="char:EOLhyphen"/>canarillus</hi> the <hi>Cacick</hi> or King, to build a fort in which he Left 38 <hi>Spaniards,</hi> and taking with him 6 <hi>Indians,</hi> Re<g ref="char:EOLhyphen"/>turned to <hi>Spain,</hi> where he was high<g ref="char:EOLhyphen"/>ly welcomed by the King and Queen. Some Controverſie fell out between <hi>Collumbus</hi> and one of the <hi>Pinzons,</hi> Maſters of one of the <hi>Caravels,</hi> about leaving thoſe men behind; but <hi>Col<g ref="char:EOLhyphen"/>lumbus</hi> ſent a Letter to Reduce him to peace by the <hi>Indians,</hi> who held the Letter in a moſt Religious Re<g ref="char:EOLhyphen"/>gard thinking it had ſome Spirit or Deity, by which they could under<g ref="char:EOLhyphen"/>ſtand one another being abſent.</p>
+                  <p>The Pope (then a <hi>Spaniard) Alexander</hi> the 6 hearing of this, de<g ref="char:EOLhyphen"/>vided the World by his Bull betwixt the <hi>Portugal</hi> and <hi>Spaniards,</hi> bearing date the 4 of <hi>May</hi> 1493. Drawing a Line one hundred Leagues beyond the Iſland of <hi>Azores</hi> and <hi>Cape verde;</hi>
+                     <pb n="113" facs="tcp:52464:62"/> this <hi>Alexander</hi> giving (more then great <hi>Alexander</hi> could conquer) the Eaſt to the one and Weſt to the other. The Bull ſoon after turned into a Unicorn, his 2 horns grew into one by the uniting of theſe two Nations.</p>
+                  <p>
+                     <hi>Collumbus</hi> Graced with the title of Admiral, and Enriched with the tenths of the <hi>Spaniſh</hi> Gaines in the <hi>Indies,</hi> is ſent a ſecond time with his Brother <hi>Barthol.</hi> who was made De<g ref="char:EOLhyphen"/>puty of <hi>Hiſpaniola;</hi> they had fifteen hundred men; the firſt Iſland he Eſpied in his Second Navigation he called <hi>Deſteada,</hi> or Deſired, be<g ref="char:EOLhyphen"/>cauſe he had longed to ſee Land, ar<g ref="char:EOLhyphen"/>riving in <hi>Hiſpaniola,</hi> he found the <hi>Indians</hi> had Murther'd theſe 38 <hi>Spa<g ref="char:EOLhyphen"/>niards</hi> which he had left there, and lay the blame on the <hi>Spaniſh</hi> Inſolen<g ref="char:EOLhyphen"/>cies. He now built and peopled the town of <hi>Iſabella,</hi> which was their chief place of Reſidence and Govern<g ref="char:EOLhyphen"/>ment, which in the year one thou<g ref="char:EOLhyphen"/>ſand
+<pb n="114" facs="tcp:52464:63"/> four hundred ninety eight, was Removed to the City of <hi>San. Dom<g ref="char:EOLhyphen"/>ingo;</hi> they built alſo the fort of S. <hi>Thomas.</hi> But both in the one and the other, the <hi>Spaniards</hi> Died of famine through the <hi>Indians</hi> wilful<g ref="char:EOLhyphen"/>neſs, who unwilling to have ſuch Neighbours, would not plant their <hi>Maze</hi> and <hi>Jucca,</hi> and ſo ſtarved both themſelves and their Gueſts. As for the Pox the <hi>Spaniards</hi> in this Voy<g ref="char:EOLhyphen"/>age got it of the <hi>Indian</hi> women, and brought them into <hi>Spain,</hi> and they after paid the <hi>Indians</hi> in Re<g ref="char:EOLhyphen"/>compence with a Diſeaſe as deadly and Infectious to them which con<g ref="char:EOLhyphen"/>ſumed thouſands, and was never known before amongſt them: That is the <hi>ſmall Pox,</hi> the other were Improperly named of the <hi>French;</hi> or of <hi>Naples,</hi> ſeeing that in theſe wars of <hi>Naples,</hi> which the <hi>Spaniards</hi> Maintain'd againſt the <hi>French;</hi> ſome carryed this Diſeaſe with them out of <hi>Spain</hi> and communicated the ſame
+<pb n="115" facs="tcp:52464:63"/> both to the <hi>French</hi> and <hi>Neapollitans,</hi> having been uſual and eaſily Cu<g ref="char:EOLhyphen"/>rable in the <hi>Indies.</hi> Another di<g ref="char:EOLhyphen"/>ſeaſe alſo aſſaulted them of a little kind of flies, called <hi>Niguas,</hi> which would eat into and Breed in the fleſh, and made many loſe their toes.</p>
+                  <p>
+                     <hi>Collumbus</hi> at this time Diſcover'd <hi>Cuba</hi> and <hi>Jamaica,</hi> with the Neigh<g ref="char:EOLhyphen"/>bour Iſles, Returning to <hi>Spaniola,</hi> he found his Brother and the <hi>Spani<g ref="char:EOLhyphen"/>ards</hi> in Diſſention and ſeparation, and puniſhing the Authors of ſedi<g ref="char:EOLhyphen"/>tion, Returned home. In the year of our Lord 1492 he made his third Voyage and then touched on the Continent, Diſcover'd <hi>Cubagua paria</hi> and <hi>Cumana.</hi>
+                  </p>
+                  <p>But <hi>Roldanus Ximenius</hi> raiſing a Rebellion and accuſing the <hi>Collumbi</hi> to the King, effected that <hi>Bovadilla</hi> was ſent Governor into <hi>Spaniola,</hi> who ſent the two Brethren Bound as Priſoners to <hi>Spain;</hi> Baſe ingratitude; for the brave attempt of the wor<g ref="char:EOLhyphen"/>thys,
+<pb n="116" facs="tcp:52464:64"/> the King freeth them and Im<g ref="char:EOLhyphen"/>ploy'd <hi>Chriſtopher</hi> a fourth Voyage, Anno 1502. in which <hi>Ovandus</hi> the Governour forbid <hi>Collumbus,</hi> the firſt finder, to Land on <hi>Hiſpaniola.</hi>
+                  </p>
+                  <p>He then diſcover'd <hi>Guanaxa, Hig<g ref="char:EOLhyphen"/>vera, Fondura, Veragua, <g ref="char:V">Ʋ</g>raba,</hi> and learned news of the South Sea. He ſtay'd at <hi>Jamaica</hi> to Repair his fleet, where ſome of his men were ſick, and then they which were ſound in Body were more then ſick, froward and tumultuous in Behaviour, and many left him; upon this occaſion the Iſlanders alſo forſook him, and brought in no victualing; herewith <hi>Collumbus</hi> neither able to abide nor depart, was driven to his ſhifts, no leſs admirable for ſubtilty then Re<g ref="char:EOLhyphen"/>ſolution; he told the Iſlanders, that if they did not bring him in pro<g ref="char:EOLhyphen"/>viſion the Divine anger would con<g ref="char:EOLhyphen"/>ſume them; a ſign thereof they ſhould ſee in the Darkned face of the Moon 2 Days after, at that
+<pb n="117" facs="tcp:52464:64"/> time he knew the Moon would be Eclipſed, which the ſimple Iſlanders ſeeing, with fear and Grief, humbled themſelves to him, and offered them<g ref="char:EOLhyphen"/>ſelves ready to all kind and dutyful offices.</p>
+                  <p>At laſt returning into <hi>Spain</hi> he there died, <hi>Anno</hi> 1506. his body was buryed at <hi>Sevil</hi> in the Temple of the <hi>Carthuſians.</hi> This was the end (if ever there can be an end) of <hi>Collumbus. Pinzenus,</hi> one of <hi>Col<g ref="char:EOLhyphen"/>lumbus</hi> his Companions, by his Ex<g ref="char:EOLhyphen"/>ample invited, made new Diſcoveries: <hi>Veſpatius,</hi> and <hi>Cabbet,</hi> and many other every day making new Searches and Plantations, till the World at laſt is come to the knowledge of this <hi>new World</hi> almoſt wholly.</p>
+                  <trailer>FINIS.</trailer>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>
